@@ -8,6 +8,7 @@ import math
 from collections import Counter, defaultdict
 
 from . import lab
+from .scanners import vuls
 
 REPO = lab.REPO
 RES = REPO / "results"
@@ -218,6 +219,27 @@ def main():
                 f"{t}: {a['quiet_no_stale']} quiet, {a['alarm_no_stale']} raised a restart flag, "
                 f"{a['unavailable']} unavailable" for t, a in alarms.items()), ""]
 
+    # ---- vuls restart check availability and the sshd connection probe, per host state
+    avail = defaultdict(set)
+    for p in sorted((RES / "raw").glob("*/*/r*/vuls.json.gz")):
+        v = vuls.parse(p)
+        avail[f"{p.parts[-4]}/{p.parts[-3]}"].add("unavailable" if v.get("error") or v.get("restart_unavailable")
+                                                   else "ran")
+    unavailable_states = sorted(k for k, v in avail.items() if "unavailable" in v)
+    probe_rows = []
+    for p in sorted((RES / "raw").glob("*/S3/r*/ssh_probe.json")):
+        j = json.loads(p.read_text())
+        if j.get("ran"):
+            probe_rows.append([p.parts[-4], p.parts[-2], any(x["exe_deleted"] for x in j["listener"]),
+                               any(x["exe_deleted"] for x in j["connection"]), j["banner"]])
+    out += ["## Vuls restart check availability", "",
+            f"The check could not run on {len(unavailable_states)} of {len(avail)} host states: "
+            + ", ".join(unavailable_states) + ".", "",
+            "## sshd connection probe on S3 hosts", "",
+            "One TCP connection, no login. Does the listener, and the process serving the new connection, run a "
+            "deleted (replaced) sshd binary?", "",
+            md_table(["Distro", "Repeat", "Listener deleted", "Connection child deleted", "Banner"], probe_rows), ""]
+
     # ---- repeat stability
     groups = defaultdict(set)
     tgroups = defaultdict(set)
@@ -298,6 +320,7 @@ def main():
               "restart": {t: list(v) for t, v in rt.items()}, "repeat_stable": [stable, len(groups)],
               "truth_stable": [tstable, len(tgroups)], "backport_scanners": [sc_s2_fv, len(sc_s2)],
               "backport_banner": [banner_s2_fv, len(banner_s2)], "s5_flagged": [s5_flag, len(s5)],
+              "vuls_restart_unavailable_states": [len(unavailable_states), len(avail)],
               "host_builds": len(runs), "verdicts": len(cells), "cells": len(unique_cells)}
     (RES / "headline_numbers.json").write_text(json.dumps(detail, indent=1) + "\n")
     (RES / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")

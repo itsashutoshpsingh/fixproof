@@ -74,5 +74,6 @@ that either tool is broken.
 - Feeds are frozen at one date (Trivy DB 2026-11-14T13:05:54Z, OSV exports downloaded
   2026-11-14). A later feed could change "no check" cells, in particular on Rocky Linux.
 - The OSV database was filtered to records that name a studied CVE. OSV-Scanner matches records
-  one at a time, so this cannot change verdicts on these CVEs; the check that it does not is in
-  `results/osv_full_db_check.json`.
+  one at a time, so this cannot change verdicts on these CVEs; on 8 hosts (one vulnerable host per
+  distro plus a 22.04 S3 host) the full export and the filtered copy flagged exactly the same studied
+  CVEs (`results/osv_full_db_check.json`).

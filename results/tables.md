@@ -171,6 +171,26 @@ Verdicts that flagged a CVE only through a package other than the one carrying t
 
 Hosts with no stale vulnerable process: needrestart: 51 quiet, 0 raised a restart flag, 0 unavailable; vuls (checkrestart / needs-restarting): 42 quiet, 0 raised a restart flag, 39 unavailable
 
+## Vuls restart check availability
+
+The check could not run on 21 of 38 host states: alma-9/S0, alma-9/S3, alma-9/SU, alpine-3.18-nginx/S0, alpine-3.18-nginx/S3, alpine-3.18-nginx/SU, debian-12-base/S0, debian-12-base/S3, debian-12-base/SU, debian-12-nginx/S0, debian-12-nginx/S3, debian-12-nginx/SU, rocky-9/S0, rocky-9/S3, rocky-9/SU, ubuntu-20.04/S7, ubuntu-20.04/S8, ubuntu-22.04/S7, ubuntu-22.04/S8, ubuntu-24.04/S7, ubuntu-24.04/S8.
+
+## sshd connection probe on S3 hosts
+
+One TCP connection, no login. Does the listener, and the process serving the new connection, run a deleted (replaced) sshd binary?
+
+| Distro | Repeat | Listener deleted | Connection child deleted | Banner |
+|---|---|---|---|---|
+| ubuntu-20.04 | r1 | True | False | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.13 |
+| ubuntu-20.04 | r2 | True | False | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.13 |
+| ubuntu-20.04 | r3 | True | False | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.13 |
+| ubuntu-22.04 | r1 | True | False | SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.18 |
+| ubuntu-22.04 | r2 | True | False | SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.18 |
+| ubuntu-22.04 | r3 | True | False | SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.18 |
+| ubuntu-24.04 | r1 | True | True | SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13 |
+| ubuntu-24.04 | r2 | True | True | SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13 |
+| ubuntu-24.04 | r3 | True | True | SSH-2.0-OpenSSH_9.6p1 Ubuntu-3ubuntu13 |
+
 ## Repeat stability
 
 Verdict identical in every repeat: 485/485 (cell, scanner) groups. Truth identical in every repeat: 155/155 cells.

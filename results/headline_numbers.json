@@ -69,6 +69,10 @@
   48,
   48
  ],
+ "vuls_restart_unavailable_states": [
+  21,
+  38
+ ],
  "host_builds": 114,
  "verdicts": 1455,
  "cells": 155
