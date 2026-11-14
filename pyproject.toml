@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fixproof"
+version = "0.1.0"
+description = "Benchmark host vulnerability scanners against hosts built into known remediation states."
+readme = "README.md"
+license = "MIT"
+authors = [{name = "Ashutosh Pal Singh"}]
+requires-python = ">=3.11"
+dependencies = [
+  "pyyaml==6.0.3",
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib==3.10.7"]
+
+[dependency-groups]
+dev = ["pytest==8.4.2", "ruff==0.14.4"]
+
+[project.scripts]
+fixproof = "fixproof.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]

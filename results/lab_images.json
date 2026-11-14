@@ -1,0 +1,132 @@
+{
+ "ubuntu-20.04": {
+  "s0": {
+   "ref": "fixproof/ubuntu-20.04:s0",
+   "id": "sha256:bfd217054bd701312a2f1eece200b651e023615264537432eb4a28e7cac4dd4c",
+   "repo_digests": [
+    "fixproof/ubuntu-20.04@sha256:bfd217054bd701312a2f1eece200b651e023615264537432eb4a28e7cac4dd4c"
+   ],
+   "created": "2026-11-14T14:34:18.375798575Z"
+  },
+  "base": "mirror.gcr.io/library/ubuntu:focal-20200423"
+ },
+ "ubuntu-22.04": {
+  "s0": {
+   "ref": "fixproof/ubuntu-22.04:s0",
+   "id": "sha256:1b718c0c0acccede157f1c99f60f16cbc3cf05477a12a7b7750da9f1db98e19b",
+   "repo_digests": [
+    "fixproof/ubuntu-22.04@sha256:1b718c0c0acccede157f1c99f60f16cbc3cf05477a12a7b7750da9f1db98e19b"
+   ],
+   "created": "2026-11-14T14:39:17.777273807Z"
+  },
+  "base": "mirror.gcr.io/library/ubuntu:jammy-20220421"
+ },
+ "ubuntu-24.04": {
+  "s0": {
+   "ref": "fixproof/ubuntu-24.04:s0",
+   "id": "sha256:39938c24646eb58f16edde2e5c6f9672acaa4f50fce7d9dac99ba41d81b38f2d",
+   "repo_digests": [
+    "fixproof/ubuntu-24.04@sha256:39938c24646eb58f16edde2e5c6f9672acaa4f50fce7d9dac99ba41d81b38f2d"
+   ],
+   "created": "2026-11-14T14:40:00.33326766Z"
+  },
+  "base": "mirror.gcr.io/library/ubuntu:noble-20240423"
+ },
+ "debian-12-base": {
+  "old": {
+   "ref": "mirror.gcr.io/library/debian:bookworm-20230919",
+   "id": "sha256:eaace54a93d7b69c7c52bb8ddf9b3fcba0c106a497bc1fdbb89a6299cf945c63",
+   "repo_digests": [
+    "debian@sha256:eaace54a93d7b69c7c52bb8ddf9b3fcba0c106a497bc1fdbb89a6299cf945c63",
+    "mirror.gcr.io/library/debian@sha256:eaace54a93d7b69c7c52bb8ddf9b3fcba0c106a497bc1fdbb89a6299cf945c63"
+   ],
+   "created": "2023-09-20T04:55:26.982571487Z"
+  },
+  "new": {
+   "ref": "mirror.gcr.io/library/debian:bookworm-20231009",
+   "id": "sha256:7d3e8810c96a6a278c218eb8e7f01efaec9d65f50c54aae37421dc3cbeba6535",
+   "repo_digests": [
+    "debian@sha256:7d3e8810c96a6a278c218eb8e7f01efaec9d65f50c54aae37421dc3cbeba6535",
+    "mirror.gcr.io/library/debian@sha256:7d3e8810c96a6a278c218eb8e7f01efaec9d65f50c54aae37421dc3cbeba6535"
+   ],
+   "created": "2023-10-11T18:34:37.999717002Z"
+  }
+ },
+ "debian-12-nginx": {
+  "old": {
+   "ref": "mirror.gcr.io/library/nginx:1.25.2",
+   "id": "sha256:b4af4f8b6470febf45dc10f564551af682a802eda1743055a7dfc8332dffa595",
+   "repo_digests": [
+    "nginx@sha256:b4af4f8b6470febf45dc10f564551af682a802eda1743055a7dfc8332dffa595",
+    "mirror.gcr.io/library/nginx@sha256:b4af4f8b6470febf45dc10f564551af682a802eda1743055a7dfc8332dffa595"
+   ],
+   "created": "2023-10-12T03:14:44.515974298Z"
+  },
+  "new": {
+   "ref": "mirror.gcr.io/library/nginx:1.25.3",
+   "id": "sha256:c7a6ad68be85142c7fe1089e48faa1e7c7166a194caa9180ddea66345876b9d2",
+   "repo_digests": [
+    "nginx@sha256:c7a6ad68be85142c7fe1089e48faa1e7c7166a194caa9180ddea66345876b9d2",
+    "mirror.gcr.io/library/nginx@sha256:c7a6ad68be85142c7fe1089e48faa1e7c7166a194caa9180ddea66345876b9d2"
+   ],
+   "created": "2023-10-24T22:44:45Z"
+  }
+ },
+ "alpine-3.18-nginx": {
+  "old": {
+   "ref": "mirror.gcr.io/library/nginx:1.25.2-alpine3.18",
+   "id": "sha256:7272a6e0f728e95c8641d219676605f3b9e4759abbdb6b39e5bbd194ce55ebaf",
+   "repo_digests": [
+    "mirror.gcr.io/library/nginx@sha256:7272a6e0f728e95c8641d219676605f3b9e4759abbdb6b39e5bbd194ce55ebaf"
+   ],
+   "created": "2023-10-21T02:43:17.788034104Z"
+  },
+  "new": {
+   "ref": "mirror.gcr.io/library/nginx:1.25.3-alpine3.18",
+   "id": "sha256:f2802c2a9d09c7aa3ace27445dfc5656ff24355da28e7b958074a0111e3fc076",
+   "repo_digests": [
+    "nginx@sha256:f2802c2a9d09c7aa3ace27445dfc5656ff24355da28e7b958074a0111e3fc076",
+    "mirror.gcr.io/library/nginx@sha256:f2802c2a9d09c7aa3ace27445dfc5656ff24355da28e7b958074a0111e3fc076"
+   ],
+   "created": "2023-10-24T22:44:45Z"
+  }
+ },
+ "rocky-9": {
+  "old": {
+   "ref": "mirror.gcr.io/library/rockylinux:9.2.20230513",
+   "id": "sha256:b07e21a7bbcecbae55b9153317d333d4d50808bf5dc0859db0180b6fbd7afb3d",
+   "repo_digests": [
+    "rockylinux@sha256:b07e21a7bbcecbae55b9153317d333d4d50808bf5dc0859db0180b6fbd7afb3d",
+    "mirror.gcr.io/library/rockylinux@sha256:b07e21a7bbcecbae55b9153317d333d4d50808bf5dc0859db0180b6fbd7afb3d"
+   ],
+   "created": "2023-05-26T23:14:21.818712261Z"
+  },
+  "new": {
+   "ref": "mirror.gcr.io/library/rockylinux:9.3.20231119",
+   "id": "sha256:d7be1c094cc5845ee815d4632fe377514ee6ebcf8efaed6892889657e5ddaaa6",
+   "repo_digests": [
+    "rockylinux@sha256:d7be1c094cc5845ee815d4632fe377514ee6ebcf8efaed6892889657e5ddaaa6",
+    "mirror.gcr.io/library/rockylinux@sha256:d7be1c094cc5845ee815d4632fe377514ee6ebcf8efaed6892889657e5ddaaa6"
+   ],
+   "created": "2023-11-28T20:08:58Z"
+  }
+ },
+ "alma-9": {
+  "old": {
+   "ref": "docker.io/library/almalinux:9.2-20230718",
+   "id": "sha256:09fdb3db0975ac4bf4610abd8f159622ab8f460950b56212472625cc47fccd5a",
+   "repo_digests": [
+    "almalinux@sha256:09fdb3db0975ac4bf4610abd8f159622ab8f460950b56212472625cc47fccd5a"
+   ],
+   "created": "2023-07-18T19:20:21.993484945Z"
+  },
+  "new": {
+   "ref": "docker.io/library/almalinux:9.3-20231124",
+   "id": "sha256:d7f8aa1c5ff918565fa1114d16e27b03fe10944a422e2943a66f6f4a275fa22c",
+   "repo_digests": [
+    "almalinux@sha256:d7f8aa1c5ff918565fa1114d16e27b03fe10944a422e2943a66f6f4a275fa22c"
+   ],
+   "created": "2023-11-28T23:28:26.272773823Z"
+  }
+ }
+}

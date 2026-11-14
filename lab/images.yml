@@ -1,0 +1,27 @@
+# Lab host images. Ubuntu images are built from lab/ubuntu/Dockerfile; the others are
+# official images pulled by tag and recorded by digest in results/lab_images.json.
+fixed_snapshot: "20261101T000000Z"   # snapshot.ubuntu.com view used for "updated" states
+ubuntu:
+  ubuntu-20.04:
+    base: mirror.gcr.io/library/ubuntu:focal-20200423
+    release: focal
+    packages: openssh-server openssh-client sudo policykit-1 nginx-core openssl libssl1.1 curl libcurl4 xz-utils gzip needrestart debian-goodies python3-minimal lsof procps
+    kernel_package: linux-image-5.4.0-26-generic
+  ubuntu-22.04:
+    base: mirror.gcr.io/library/ubuntu:jammy-20220421
+    release: jammy
+    packages: openssh-server openssh-client sudo nginx-core openssl libssl3 curl libcurl4 needrestart debian-goodies python3-minimal lsof procps
+    kernel_package: linux-image-5.15.0-25-generic
+  ubuntu-24.04:
+    base: mirror.gcr.io/library/ubuntu:noble-20240423
+    release: noble
+    packages: openssh-server openssh-client sudo nginx openssl libssl3t64 curl libcurl4t64 needrestart debian-goodies python3-minimal lsof procps
+    kernel_package: ""
+# Distros whose package archives are not reachable from this lab: the "before" and "after"
+# states are two official images published at different dates.
+official:
+  debian-12-base: {old: mirror.gcr.io/library/debian:bookworm-20230919, new: mirror.gcr.io/library/debian:bookworm-20231009, pm: dpkg, procs: holder}
+  debian-12-nginx: {old: mirror.gcr.io/library/nginx:1.25.2, new: mirror.gcr.io/library/nginx:1.25.3, pm: dpkg, procs: nginx}
+  alpine-3.18-nginx: {old: mirror.gcr.io/library/nginx:1.25.2-alpine3.18, new: mirror.gcr.io/library/nginx:1.25.3-alpine3.18, pm: apk, procs: nginx}
+  rocky-9: {old: mirror.gcr.io/library/rockylinux:9.2.20230513, new: mirror.gcr.io/library/rockylinux:9.3.20231119, pm: rpm, procs: python-tls}
+  alma-9: {old: docker.io/library/almalinux:9.2-20230718, new: docker.io/library/almalinux:9.3-20231124, pm: rpm, procs: python-tls}

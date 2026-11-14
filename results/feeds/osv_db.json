@@ -1,0 +1,42 @@
+{
+ "Ubuntu": {
+  "url": "https://osv-vulnerabilities.storage.googleapis.com/Ubuntu/all.zip",
+  "sha256": "5aa5cc37176fe49dbec2af13bc6d74d13c4b74a597971ccc1869bf1a2a0c31e5",
+  "bucket_last_modified_now": "Sat, 14 Nov 2026 07:03:07 GMT",
+  "records": 74348,
+  "kept": 97,
+  "filtered_sha256": "a70df3fc455758318b31139816adb2dfcf3750a683305522b39ff9b7f90dbe7a"
+ },
+ "Debian": {
+  "url": "https://osv-vulnerabilities.storage.googleapis.com/Debian/all.zip",
+  "sha256": "c3e98e0e22ea548f2d326ddef2e4ce210af7d6acdf14eca17cc223ffd30d4ca9",
+  "bucket_last_modified_now": "Sat, 14 Nov 2026 14:03:09 GMT",
+  "records": 74158,
+  "kept": 71,
+  "filtered_sha256": "2ec5d087212781449ddf7846a0e3c2decdcaa1bde5509cdd23bebf85ed37d59a"
+ },
+ "Alpine": {
+  "url": "https://osv-vulnerabilities.storage.googleapis.com/Alpine/all.zip",
+  "sha256": "3688022e7594f8e0c8d1ec5f77a49d70c25ba4290d1fb08dd208d9a4a26cdf0b",
+  "bucket_last_modified_now": "Sat, 14 Nov 2026 09:32:41 GMT",
+  "records": 10855,
+  "kept": 18,
+  "filtered_sha256": "2564839ff34e1a7927c5f387323d3d169e1652f97989a15fcb0db94066ca124d"
+ },
+ "Rocky Linux": {
+  "url": "https://osv-vulnerabilities.storage.googleapis.com/Rocky%20Linux/all.zip",
+  "sha256": "ce3f52b150ac9560d923e38c25e6e71e1c5ddedd48863bd870899f4ebc45a03d",
+  "bucket_last_modified_now": "Sat, 14 Nov 2026 06:32:58 GMT",
+  "records": 4991,
+  "kept": 37,
+  "filtered_sha256": "12026c50742e2d3e9bf612233dd0b32c1dfde9529a9c8bd7204116adf61b5ec9"
+ },
+ "AlmaLinux": {
+  "url": "https://osv-vulnerabilities.storage.googleapis.com/AlmaLinux/all.zip",
+  "sha256": "20ddff43dec4cc83abbdb0e42a3189fbe9acff3900723b73229ed3f8226b4870",
+  "bucket_last_modified_now": "Fri, 13 Nov 2026 16:03:25 GMT",
+  "records": 6445,
+  "kept": 45,
+  "filtered_sha256": "c4c3136a031bd2831ef60f5b89f239a06f34cf25dd0949be0046c8f141a321b1"
+ }
+}
