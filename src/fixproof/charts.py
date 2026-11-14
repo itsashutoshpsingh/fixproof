@@ -227,7 +227,7 @@ def coverage(cells):
                                         for d in distros])
     ax.set_ylabel("Vulnerable S0 cells flagged (%)")
     ax.set_ylim(0, 125)
-    ax.set_title("On vulnerable hosts both scanners flag almost everything, except on Rocky Linux")
+    ax.set_title("On vulnerable hosts both scanners flag every studied CVE, except on Rocky Linux")
     ax.legend(loc="upper left", ncol=2)
     _style(ax)
     fig.tight_layout()
