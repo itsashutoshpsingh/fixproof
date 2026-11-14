@@ -16,7 +16,8 @@ for distro, state in DEMOS:
             if step != "collect-before":
                 host.run_step(step)
         p = subprocess.run(["fixproof", "verify", "--container", host.name, *CVES[distro]], capture_output=True, text=True)
-        text = f"$ fixproof verify {' '.join(CVES[distro])}   # on a {distro} host in state {state}\n{p.stdout}{p.stderr}exit code {p.returncode}\n"
+        head = f"$ fixproof verify {' '.join(CVES[distro])}   # on a {distro} host in state {state}\n"
+        text = f"{head}{p.stdout}{p.stderr}exit code {p.returncode}\n"
         (REPO / f"results/verify_demo/{distro}_{state}.txt").write_text(text)
         print(text)
     finally:

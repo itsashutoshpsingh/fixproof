@@ -144,7 +144,8 @@ def main():
             f"Verdicts on cells where the installed package is fixed but a running process maps vulnerable code: "
             f"{len(stale)}. Said fixed: {len(stale_fixed)} ({pct(len(stale_fixed), len(stale))}). Of these, "
             f"{len(reach)} are cells where the stale process is the one that would run the vulnerable path for new "
-            f"input (TLS workers, vendored library, sshd where the probe showed it); said fixed: {len(reach_fixed)} ({pct(len(reach_fixed), len(reach))}).",
+            f"input (TLS workers, vendored library, sshd where the probe showed it); "
+            f"said fixed: {len(reach_fixed)} ({pct(len(reach_fixed), len(reach))}).",
             ""]
     rows = []
     for st in ("S3", "S8", "S9"):
