@@ -1,0 +1,48 @@
+{
+ "distro": "alpine-3.18-nginx",
+ "state": "S3",
+ "repeat": 3,
+ "image": "mirror.gcr.io/library/nginx:1.25.2-alpine3.18",
+ "started": 1794670816.4178576,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 0.6
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-alpine-318-nginx-S3-r3.tar\"\nStarting filesystem walk for root: \nEnd status: 257 dirs visited, 2818 inodes visited, 1 Extract calls, 4.024805ms elapsed, 4.025486ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 761.374\u00b5s elapsed, 761.596\u00b5s wall time\nLoaded Alpine local db from /db/osv-scalibr/Alpine/all.zip\n",
+   "seconds": 1.8
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\talpine3.18.6\t64 installed\n\nWarning: [Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.7
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/nginx:1.25.2-alpine3.18",
+   "rc": 0,
+   "t": 1794670816.62,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670819.73,
+   "output": "2026/11/14 15:40:16 [notice] 13#13: using the \"epoll\" event method\n2026/11/14 15:40:16 [notice] 13#13: nginx/1.25.2\n2026/11/14 15:40:16 [notice] 13#13: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) \n2026/11/14 15:40:16 [notice] 13#13: OS: Linux 6.18.44-fc-v470\n2026/11/14 15:40:16 [notice] 13#13: getrlimit(RLIMIT_NOFILE): 20000:20000\n2026/11/14 15:40:16 [notice] 14#14: start worker processes\n2026/11/14 15:40:16 [notice] 14#14: start worker process 15\n2026/11/14 15:40:16 [notice] 14#14: start worker process 16\n2026/11/14 15:40:16 [notice] 14#14: start worker process 17\n2026/11/14 15:40:16 [notice] 14#14: start worker process 18\n"
+  },
+  {
+   "step": "overlay",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670821.98,
+   "output": "{\"replaced\": 57, \"same\": 2496, \"new\": 2, \"symlinks\": 1, \"skipped\": 7, \"replaced_paths\": [\"/bin/busybox\", \"/etc/alpine-release\", \"/etc/apk/world\", \"/etc/os-release\", \"/etc/shadow\", \"/etc/ssl/misc/tsget.pl\", \"/lib/apk/db/installed\", \"/lib/apk/db/scripts.tar\", \"/lib/apk/db/triggers\", \"/lib/ld-musl-x86_64.so.1\", \"/lib/libcrypto.so.3\", \"/lib/libssl.so.3\", \"/usr/bin/curl\", \"/usr/bin/njs\", \"/usr/lib/engines-3/afalg.so\", \"/usr/lib/engines-3/capi.so\", \"/usr/lib/engines-3/loader_attic.so\", \"/usr/lib/engines-3/padlock.so\", \"/usr/lib/libX11.so.6.4.0\", \"/usr/lib/libcurl.so.4.8.0\", \"/usr/lib/nginx/modules/ngx_http_geoip_module-debug.so\", \"/usr/lib/nginx/modules/ngx_http_geoip_module.so\", \"/usr/lib/nginx/modules/ngx_http_image_filter_module-debug.so\", \"/usr/lib/nginx/modules/ngx_http_image_filter_module.so\", \"/usr/lib/nginx/modules/ngx_http_js_module-debug.so\", \"/usr/lib/nginx/modules/ngx_http_js_module.so\", \"/usr/lib/nginx/modules/ngx_http_xslt_filter_module-debug.so\", \"/usr/lib/nginx/modules/ngx_http_xslt_filter_module.so\", \"/usr/lib/nginx/modules/ngx_stream_geoip_module-debug.so\", \"/usr/lib/nginx/modules/ngx_stream_geoip_module.so\", \"/usr/lib/nginx/modules/ngx_stream_js_module-debug.so\", \"/usr/lib/nginx/modules/ngx_stream_js_module.so\", \"/usr/lib/ossl-modules/legacy.so\", \"/usr/sbin/nginx\", \"/usr/sbin/nginx-debug\", \"/usr/share/X11/locale/am_ET.UTF-8/Compose\", \"/usr/share/X11/locale/en_US.UTF-8/Compose\", \"/usr/share/X11/locale/pt_BR.UTF-8/Compose\", \"/usr/share/doc/nginx-module-njs/CHANGES\", \"/usr/share/zoneinfo/America/Godthab\", \"/usr/share/zoneinfo/America/Nuuk\", \"/usr/share/zoneinfo/America/Scoresbysund\", \"/usr/share/zoneinfo/Antarctica/Casey\", \"/usr/share/zoneinfo/Antarctica/Vostok\", \"/usr/share/zoneinfo/Asia/Gaza\", \"/usr/share/zoneinfo/Asia/Hebron\", \"/usr/share/zoneinfo/iso3166.tab\", \"/usr/share/zoneinfo/leap-seconds.list\", \"/usr/share/zoneinfo/right/America/Godthab\", \"/usr/share/zoneinfo/right/America/Nuuk\", \"/usr/share/zoneinfo/right/America/Scoresbysund\", \"/usr/share/zoneinfo/right/Antarctica/Casey\", \"/usr/share/zoneinfo/right/Antarctica/Vostok\", \"/usr/share/zoneinfo/right/Asia/Gaza\", \"/usr/share/zoneinfo/right/Asia/Hebron\", \"/usr/share/zoneinfo/zone.tab\", \"/usr/share/zoneinfo/zone1970.tab\"]}"
+  }
+ ],
+ "finished": 1794670827.7209241
+}

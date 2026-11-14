@@ -1,0 +1,17 @@
+$ fixproof verify CVE-2024-6387 CVE-2023-4911 CVE-2023-0286 CVE-2024-2961 CVE-2025-32462   # on a ubuntu-22.04 host in state S2
+CVE-2024-6387: REMEDIATED
+  [ok] openssh-server >= 1:8.9p1-3ubuntu0.10: 1:8.9p1-3ubuntu0.18
+  [ok] vendor changelog names the CVE: True
+  [..] mitigation check (informational): False
+CVE-2023-4911: REMEDIATED
+  [ok] libc6 >= 2.35-0ubuntu3.4: 2.35-0ubuntu3.15
+CVE-2023-0286: REMEDIATED
+  [ok] libssl3 >= 3.0.2-0ubuntu1.8: 3.0.2-0ubuntu1.30
+CVE-2024-2961: REMEDIATED
+  [ok] libc6 >= 2.35-0ubuntu3.7: 2.35-0ubuntu3.15
+  [ok] vendor changelog names the CVE: True
+  [..] mitigation check (informational): False
+CVE-2025-32462: REMEDIATED
+  [ok] sudo >= 1.9.9-1ubuntu2.5: 1.9.9-1ubuntu2.7
+  [ok] vendor changelog names the CVE: True
+exit code 0

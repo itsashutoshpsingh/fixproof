@@ -1,0 +1,253 @@
+distro,state,repeat,pid,comm,cves,tool,result
+alma-9,S0,1,,,,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S0,2,,,,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S0,3,,,,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S3,1,1296,python3,CVE-2023-4911 CVE-2023-5363,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S3,1,1256,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S3,2,15343,python3,CVE-2023-4911 CVE-2023-5363,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S3,2,15301,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S3,3,32008,python3,CVE-2023-4911 CVE-2023-5363,vuls (checkrestart / needs-restarting),unavailable
+alma-9,S3,3,31968,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+alma-9,SU,1,,,,vuls (checkrestart / needs-restarting),unavailable
+alma-9,SU,2,,,,vuls (checkrestart / needs-restarting),unavailable
+alma-9,SU,3,,,,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,S0,1,,,,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,S0,2,,,,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,S0,3,,,,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,S3,1,26097 26098 26099 26100 26101,nginx,CVE-2023-5363 CVE-2023-5678,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,S3,2,8016 8017 8018 8019 8020,nginx,CVE-2023-5363 CVE-2023-5678,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,S3,3,23710 23711 23712 23713 23714,nginx,CVE-2023-5363 CVE-2023-5678,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,SU,1,,,,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,SU,2,,,,vuls (checkrestart / needs-restarting),unavailable
+alpine-3.18-nginx,SU,3,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,S0,1,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,S0,2,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,S0,3,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,S3,1,21963,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,S3,2,3584,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,S3,3,18444,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,SU,1,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,SU,2,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-base,SU,3,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S0,1,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S0,2,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S0,3,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S3,1,24073 24075 24076 24077 24078,nginx,CVE-2023-5363 CVE-2023-6246,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S3,1,24026,sleep,CVE-2023-6246,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S3,2,5672 5673 5674 5676 5677,nginx,CVE-2023-5363 CVE-2023-6246,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S3,2,5633,sleep,CVE-2023-6246,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S3,3,21457 21458 21459 21460 21462,nginx,CVE-2023-5363 CVE-2023-6246,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,S3,3,21416,sleep,CVE-2023-6246,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,SU,1,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,SU,2,,,,vuls (checkrestart / needs-restarting),unavailable
+debian-12-nginx,SU,3,,,,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S0,1,,,,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S0,2,,,,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S0,3,,,,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S3,1,29280,python3,CVE-2023-2650 CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S3,1,29238,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S3,2,11263,python3,CVE-2023-2650 CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S3,2,11221,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S3,3,26915,python3,CVE-2023-2650 CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,S3,3,26875,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,SU,1,,,,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,SU,2,,,,vuls (checkrestart / needs-restarting),unavailable
+rocky-9,SU,3,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S0,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S0,1,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S0,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S0,2,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S0,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S0,3,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S2,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S2,1,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S2,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S2,2,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S2,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S2,3,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S3,1,27522 27523 27524 27525 27528,nginx,CVE-2022-0778 CVE-2023-0286,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,1,27522 27523 27524 27525 27528,nginx,CVE-2022-0778 CVE-2023-0286,needrestart,flagged
+ubuntu-20.04,S3,1,27520,sshd,CVE-2022-0778 CVE-2023-0286 CVE-2023-48795,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,1,27520,sshd,CVE-2022-0778 CVE-2023-0286 CVE-2023-48795,needrestart,flagged
+ubuntu-20.04,S3,1,27526,sudo,CVE-2021-3156 CVE-2023-22809,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,1,27526,sudo,CVE-2021-3156 CVE-2023-22809,needrestart,missed
+ubuntu-20.04,S3,2,8806 8807 8808 8809 8810,nginx,CVE-2022-0778 CVE-2023-0286,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,2,8806 8807 8808 8809 8810,nginx,CVE-2022-0778 CVE-2023-0286,needrestart,flagged
+ubuntu-20.04,S3,2,8804,sshd,CVE-2022-0778 CVE-2023-0286 CVE-2023-48795,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,2,8804,sshd,CVE-2022-0778 CVE-2023-0286 CVE-2023-48795,needrestart,flagged
+ubuntu-20.04,S3,2,8811,sudo,CVE-2021-3156 CVE-2023-22809,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,2,8811,sudo,CVE-2021-3156 CVE-2023-22809,needrestart,missed
+ubuntu-20.04,S3,3,22889 22890 22891 22892 22893,nginx,CVE-2022-0778 CVE-2023-0286,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,3,22889 22890 22891 22892 22893,nginx,CVE-2022-0778 CVE-2023-0286,needrestart,flagged
+ubuntu-20.04,S3,3,22887,sshd,CVE-2022-0778 CVE-2023-0286 CVE-2023-48795,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,3,22887,sshd,CVE-2022-0778 CVE-2023-0286 CVE-2023-48795,needrestart,flagged
+ubuntu-20.04,S3,3,22894,sudo,CVE-2021-3156 CVE-2023-22809,vuls (checkrestart / needs-restarting),flagged
+ubuntu-20.04,S3,3,22894,sudo,CVE-2021-3156 CVE-2023-22809,needrestart,missed
+ubuntu-20.04,S5,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S5,1,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S5,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S5,2,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S5,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S5,3,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S6,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S6,1,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S6,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S6,2,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S6,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S6,3,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S7,1,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S7,1,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S7,2,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S7,2,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S7,3,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S7,3,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S8,1,6443,sshd,CVE-2023-48795,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S8,1,6443,sshd,CVE-2023-48795,needrestart,missed
+ubuntu-20.04,S8,1,6450,sudo,CVE-2021-3156 CVE-2023-22809,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S8,1,6450,sudo,CVE-2021-3156 CVE-2023-22809,needrestart,missed
+ubuntu-20.04,S8,2,20410,sshd,CVE-2023-48795,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S8,2,20410,sshd,CVE-2023-48795,needrestart,missed
+ubuntu-20.04,S8,2,20417,sudo,CVE-2021-3156 CVE-2023-22809,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S8,2,20417,sudo,CVE-2021-3156 CVE-2023-22809,needrestart,missed
+ubuntu-20.04,S8,3,1566,sshd,CVE-2023-48795,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S8,3,1566,sshd,CVE-2023-48795,needrestart,missed
+ubuntu-20.04,S8,3,1573,sudo,CVE-2021-3156 CVE-2023-22809,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-20.04,S8,3,1573,sudo,CVE-2021-3156 CVE-2023-22809,needrestart,missed
+ubuntu-20.04,S9,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S9,1,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S9,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S9,2,,,,needrestart,quiet_no_stale
+ubuntu-20.04,S9,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-20.04,S9,3,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S0,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S0,1,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S0,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S0,2,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S0,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S0,3,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S2,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S2,1,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S2,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S2,2,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S2,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S2,3,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S3,1,18606 18607 18608 18611 18612,nginx,CVE-2023-0286 CVE-2023-4911 CVE-2024-6119,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,1,18606 18607 18608 18611 18612,nginx,CVE-2023-0286 CVE-2023-4911 CVE-2024-6119,needrestart,flagged
+ubuntu-22.04,S3,1,18561 18613,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),missed
+ubuntu-22.04,S3,1,18561 18613,sleep,CVE-2023-4911,needrestart,missed
+ubuntu-22.04,S3,1,18604,sshd,CVE-2023-0286 CVE-2023-48795 CVE-2023-4911 CVE-2024-6119 CVE-2024-6387,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,1,18604,sshd,CVE-2023-0286 CVE-2023-48795 CVE-2023-4911 CVE-2024-6119 CVE-2024-6387,needrestart,flagged
+ubuntu-22.04,S3,1,18609,sudo,CVE-2023-22809 CVE-2023-4911 CVE-2025-32462,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,1,18609,sudo,CVE-2023-22809 CVE-2023-4911 CVE-2025-32462,needrestart,missed
+ubuntu-22.04,S3,2,301 302 303 304 305,nginx,CVE-2023-0286 CVE-2023-4911 CVE-2024-6119,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,2,301 302 303 304 305,nginx,CVE-2023-0286 CVE-2023-4911 CVE-2024-6119,needrestart,flagged
+ubuntu-22.04,S3,2,308 32724,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),missed
+ubuntu-22.04,S3,2,308 32724,sleep,CVE-2023-4911,needrestart,missed
+ubuntu-22.04,S3,2,32767,sshd,CVE-2023-0286 CVE-2023-48795 CVE-2023-4911 CVE-2024-6119 CVE-2024-6387,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,2,32767,sshd,CVE-2023-0286 CVE-2023-48795 CVE-2023-4911 CVE-2024-6119 CVE-2024-6387,needrestart,flagged
+ubuntu-22.04,S3,2,306,sudo,CVE-2023-22809 CVE-2023-4911 CVE-2025-32462,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,2,306,sudo,CVE-2023-22809 CVE-2023-4911 CVE-2025-32462,needrestart,missed
+ubuntu-22.04,S3,3,13342 13343 13344 13345 13346,nginx,CVE-2023-0286 CVE-2023-4911 CVE-2024-6119,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,3,13342 13343 13344 13345 13346,nginx,CVE-2023-0286 CVE-2023-4911 CVE-2024-6119,needrestart,flagged
+ubuntu-22.04,S3,3,13299 13349,sleep,CVE-2023-4911,vuls (checkrestart / needs-restarting),missed
+ubuntu-22.04,S3,3,13299 13349,sleep,CVE-2023-4911,needrestart,missed
+ubuntu-22.04,S3,3,13340,sshd,CVE-2023-0286 CVE-2023-48795 CVE-2023-4911 CVE-2024-6119 CVE-2024-6387,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,3,13340,sshd,CVE-2023-0286 CVE-2023-48795 CVE-2023-4911 CVE-2024-6119 CVE-2024-6387,needrestart,flagged
+ubuntu-22.04,S3,3,13347,sudo,CVE-2023-22809 CVE-2023-4911 CVE-2025-32462,vuls (checkrestart / needs-restarting),flagged
+ubuntu-22.04,S3,3,13347,sudo,CVE-2023-22809 CVE-2023-4911 CVE-2025-32462,needrestart,missed
+ubuntu-22.04,S5,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S5,1,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S5,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S5,2,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S5,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S5,3,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S6,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S6,1,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S6,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S6,2,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S6,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S6,3,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S7,1,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S7,1,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S7,2,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S7,2,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S7,3,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S7,3,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S8,1,30443,sshd,CVE-2023-48795 CVE-2024-6387,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S8,1,30443,sshd,CVE-2023-48795 CVE-2024-6387,needrestart,missed
+ubuntu-22.04,S8,1,30450,sudo,CVE-2023-22809 CVE-2025-32462,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S8,1,30450,sudo,CVE-2023-22809 CVE-2025-32462,needrestart,missed
+ubuntu-22.04,S8,2,11928,sshd,CVE-2023-48795 CVE-2024-6387,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S8,2,11928,sshd,CVE-2023-48795 CVE-2024-6387,needrestart,missed
+ubuntu-22.04,S8,2,11935,sudo,CVE-2023-22809 CVE-2025-32462,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S8,2,11935,sudo,CVE-2023-22809 CVE-2025-32462,needrestart,missed
+ubuntu-22.04,S8,3,25428,sshd,CVE-2023-48795 CVE-2024-6387,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S8,3,25428,sshd,CVE-2023-48795 CVE-2024-6387,needrestart,missed
+ubuntu-22.04,S8,3,25433,sudo,CVE-2023-22809 CVE-2025-32462,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-22.04,S8,3,25433,sudo,CVE-2023-22809 CVE-2025-32462,needrestart,missed
+ubuntu-22.04,S9,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S9,1,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S9,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S9,2,,,,needrestart,quiet_no_stale
+ubuntu-22.04,S9,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-22.04,S9,3,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S0,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S0,1,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S0,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S0,2,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S0,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S0,3,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S2,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S2,1,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S2,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S2,2,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S2,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S2,3,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S3,1,9356 9357 9358 9359 9360,nginx,CVE-2024-5535 CVE-2024-6119,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,1,9356 9357 9358 9359 9360,nginx,CVE-2024-5535 CVE-2024-6119,needrestart,flagged
+ubuntu-24.04,S3,1,9354,sshd,CVE-2024-6119 CVE-2024-6387,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,1,9354,sshd,CVE-2024-6119 CVE-2024-6387,needrestart,flagged
+ubuntu-24.04,S3,1,9361,sudo,CVE-2024-5535 CVE-2024-6119 CVE-2025-32462 CVE-2025-32463,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,1,9361,sudo,CVE-2024-5535 CVE-2024-6119 CVE-2025-32462 CVE-2025-32463,needrestart,missed
+ubuntu-24.04,S3,2,22817 22818 22819 22820 22821,nginx,CVE-2024-5535 CVE-2024-6119,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,2,22817 22818 22819 22820 22821,nginx,CVE-2024-5535 CVE-2024-6119,needrestart,flagged
+ubuntu-24.04,S3,2,22815,sshd,CVE-2024-6119 CVE-2024-6387,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,2,22815,sshd,CVE-2024-6119 CVE-2024-6387,needrestart,flagged
+ubuntu-24.04,S3,2,22822,sudo,CVE-2024-5535 CVE-2024-6119 CVE-2025-32462 CVE-2025-32463,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,2,22822,sudo,CVE-2024-5535 CVE-2024-6119 CVE-2025-32462 CVE-2025-32463,needrestart,missed
+ubuntu-24.04,S3,3,4365 4366 4367 4368 4369,nginx,CVE-2024-5535 CVE-2024-6119,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,3,4365 4366 4367 4368 4369,nginx,CVE-2024-5535 CVE-2024-6119,needrestart,flagged
+ubuntu-24.04,S3,3,4363,sshd,CVE-2024-6119 CVE-2024-6387,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,3,4363,sshd,CVE-2024-6119 CVE-2024-6387,needrestart,flagged
+ubuntu-24.04,S3,3,4370,sudo,CVE-2024-5535 CVE-2024-6119 CVE-2025-32462 CVE-2025-32463,vuls (checkrestart / needs-restarting),flagged
+ubuntu-24.04,S3,3,4370,sudo,CVE-2024-5535 CVE-2024-6119 CVE-2025-32462 CVE-2025-32463,needrestart,missed
+ubuntu-24.04,S5,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S5,1,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S5,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S5,2,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S5,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S5,3,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S7,1,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S7,1,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S7,2,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S7,2,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S7,3,,,,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S7,3,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S8,1,15437,sshd,CVE-2024-6387,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S8,1,15437,sshd,CVE-2024-6387,needrestart,missed
+ubuntu-24.04,S8,1,15444,sudo,CVE-2025-32462 CVE-2025-32463,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S8,1,15444,sudo,CVE-2025-32462 CVE-2025-32463,needrestart,missed
+ubuntu-24.04,S8,2,29769,sshd,CVE-2024-6387,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S8,2,29769,sshd,CVE-2024-6387,needrestart,missed
+ubuntu-24.04,S8,2,29776,sudo,CVE-2025-32462 CVE-2025-32463,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S8,2,29776,sudo,CVE-2025-32462 CVE-2025-32463,needrestart,missed
+ubuntu-24.04,S8,3,10714,sshd,CVE-2024-6387,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S8,3,10714,sshd,CVE-2024-6387,needrestart,missed
+ubuntu-24.04,S8,3,10721,sudo,CVE-2025-32462 CVE-2025-32463,vuls (checkrestart / needs-restarting),unavailable
+ubuntu-24.04,S8,3,10721,sudo,CVE-2025-32462 CVE-2025-32463,needrestart,missed
+ubuntu-24.04,S9,1,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S9,1,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S9,2,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S9,2,,,,needrestart,quiet_no_stale
+ubuntu-24.04,S9,3,,,,vuls (checkrestart / needs-restarting),quiet_no_stale
+ubuntu-24.04,S9,3,,,,needrestart,quiet_no_stale

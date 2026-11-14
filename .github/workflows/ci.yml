@@ -12,4 +12,4 @@ jobs:
       - run: uv run ruff check src tests lab
       - run: uv run pytest -q
       # Re-score the committed raw evidence and scanner output; the published tables must follow from it.
-      - run: uv run fixproof score && uv run fixproof report && git diff --exit-code results/cells.csv results/restart.csv results/tables.md results/summary.json
+      - run: uv run fixproof score && uv run fixproof report && git diff --exit-code results/cells.csv results/restart.csv results/tables.md results/summary.json results/headline_numbers.json

@@ -28,7 +28,8 @@ The Vuls README lists, under Fast Root Scan: "Detect processes affected by updat
 (Amazon Linux, CentOS, Alma Linux, Rocky Linux, Oracle Linux, Fedora, and RedHat)" and "Detect
 processes which updated before but not restarting yet using checkrestart of debian-goodies
 (Debian and Ubuntu)". It also warns when a kernel was updated without a reboot. So Vuls was
-expected to score well on state S3 on Ubuntu, and it does (see `results/tables.md`). The Vuls
+expected to score well on state S3 on Ubuntu, and where its check could run it flagged 27 of 30
+stale programs (see `results/tables.md`). The Vuls
 detection phase (CVE matching) needs the vuls2 database, which is distributed only through
 ghcr.io blob storage; that host is blocked from this lab, so only the scan phase could run.
 That is recorded in `docs/limits.md`.

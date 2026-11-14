@@ -1,0 +1,75 @@
+{
+ "s3_trivy": [
+  69,
+  69
+ ],
+ "s3_osv": [
+  69,
+  69
+ ],
+ "s3_unique_cells": 23,
+ "s3_unique_cells_all_said_fixed": 23,
+ "reachable": [
+  96,
+  108
+ ],
+ "stale": [
+  210,
+  222
+ ],
+ "no_check": [
+  [
+   "rocky-9",
+   "CVE-2023-2650"
+  ],
+  [
+   "rocky-9",
+   "CVE-2023-38545"
+  ],
+  [
+   "rocky-9",
+   "CVE-2023-4911"
+  ],
+  [
+   "ubuntu-20.04",
+   "CVE-2024-1086"
+  ],
+  [
+   "ubuntu-22.04",
+   "CVE-2024-1086"
+  ]
+ ],
+ "restart": {
+  "needrestart": [
+   18,
+   48
+  ],
+  "vuls (checkrestart / needs-restarting)": [
+   27,
+   30
+  ]
+ },
+ "repeat_stable": [
+  485,
+  485
+ ],
+ "truth_stable": [
+  155,
+  155
+ ],
+ "backport_scanners": [
+  0,
+  198
+ ],
+ "backport_banner": [
+  12,
+  12
+ ],
+ "s5_flagged": [
+  48,
+  48
+ ],
+ "host_builds": 114,
+ "verdicts": 1455,
+ "cells": 155
+}

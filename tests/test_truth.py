@@ -65,3 +65,14 @@ def test_kernel_on_disk_only_is_fixed(make_ev):
     assert t["truth"] == "fixed" and t["old_kernel_on_disk"]
     ev["kernel_running"] = "5.15.0-25-generic"
     assert evaluate("CVE-2024-1086", case, D, ev, None)["truth"] == "vulnerable"
+
+
+def test_hash_identifies_files_without_build_id(case, make_ev):
+    from fixproof.truth import BuildIdIndex
+    idx = BuildIdIndex()
+    idx.add(D, {"files": [{"path": "/usr/sbin/sshd", "package": "openssh-server", "version": "1:8.9p1-3",
+                           "build_id": None, "sha256": "c" * 64}]})
+    p = proc(None, True)
+    p["objects"][0]["sha256"] = "c" * 64
+    t = evaluate("CVE-2024-6387", case, D, make_ev("1:8.9p1-3ubuntu0.18", procs=[p]), idx)
+    assert t["truth"] == "vulnerable" and t["stale_only"]

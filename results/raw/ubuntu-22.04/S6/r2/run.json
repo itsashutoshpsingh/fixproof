@@ -1,0 +1,65 @@
+{
+ "distro": "ubuntu-22.04",
+ "state": "S6",
+ "repeat": 2,
+ "image": "fixproof/ubuntu-22.04:s0",
+ "started": 1794669444.5475278,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 6.5
+  },
+  "osv-scanner": {
+   "rc": 0,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2204-S6-r2.tar\"\nStarting filesystem walk for root: \nEnd status: 1608 dirs visited, 9411 inodes visited, 1 Extract calls, 10.079738ms elapsed, 10.079974ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.287486ms elapsed, 1.287553ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 688.776\u00b5s elapsed, 688.861\u00b5s wall time\nFiltered 1 non container relevant package/s from the scan.\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 10.1
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu22.04\t188 installed\n\n\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.9
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-22.04:s0",
+   "rc": 0,
+   "t": 1794669444.71,
+   "output": ""
+  },
+  {
+   "step": "upgrade",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669460.38,
+   "output": ".18.0-6ubuntu14.22_all.deb ...\nUnpacking nginx-common (1.18.0-6ubuntu14.22) over (1.18.0-6ubuntu14) ...\nPreparing to unpack .../44-needrestart_3.5-5ubuntu2.5_all.deb ...\nUnpacking needrestart (3.5-5ubuntu2.5) over (3.5-5ubuntu2) ...\nSetting up openssh-client (1:8.9p1-3ubuntu0.18) ...\nSetting up libbrotli1:amd64 (1.0.9-2ubuntu0.1) ...\nSetting up binutils-common:amd64 (2.38-4ubuntu2.12) ...\nSetting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.4) ...\nSetting up libctf-nobfd0:amd64 (2.38-4ubuntu2.12) ...\nSetting up nginx-common (1.18.0-6ubuntu14.22) ...\nSetting up perl-modules-5.34 (5.34.0-3ubuntu1.9) ...\nSetting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...\nSetting up libsasl2-modules-db:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...\nSetting up libcap2-bin (1:2.44-1ubuntu0.22.04.3) ...\nSetting up libx11-data (2:1.7.5-1ubuntu0.4) ...\nSetting up libncurses6:amd64 (6.3-2ubuntu0.3) ...\nSetting up xz-utils (5.2.5-2ubuntu1.2) ...\nSetting up libpng16-16:amd64 (1.6.37-3ubuntu0.7) ...\nSetting up libss2:amd64 (1.46.5-2ubuntu1.2) ...\nSetting up sudo (1.9.9-1ubuntu2.7) ...\nSetting up libncursesw6:amd64 (6.3-2ubuntu0.3) ...\nSetting up libxtables12:amd64 (1.8.7-1ubuntu5.2) ...\nSetting up logsave (1.46.5-2ubuntu1.2) ...\nSetting up libsasl2-2:amd64 (2.1.27+dfsg2-3ubuntu1.2) ...\nSetting up libssh-4:amd64 (0.9.6-2ubuntu0.22.04.8) ...\nSetting up libwebp7:amd64 (1.2.2-2ubuntu0.22.04.2) ...\nSetting up mount (2.37.2-4ubuntu3.6) ...\nSetting up libx11-6:amd64 (2:1.7.5-1ubuntu0.4) ...\nSetting up python3-minimal (3.10.6-1~22.04.1) ...\nSetting up libtiff5:amd64 (4.3.0-6ubuntu0.13) ...\nSetting up libbinutils:amd64 (2.38-4ubuntu2.12) ...\nSetting up libnginx-mod-http-geoip2 (1.18.0-6ubuntu14.22) ...\nSetting up openssl (3.0.2-0ubuntu1.30) ...\nInstalling new version of config file /etc/ssl/openssl.cnf ...\nSetting up libelf1:amd64 (0.186-1ubuntu0.1) ...\nSetting up libxml2:amd64 (2.9.13+dfsg-1ubuntu0.14) ...\nSetting up libprocps8:amd64 (2:3.3.17-6ubuntu2.1) ...\nSetting up debian-goodies (0.87ubuntu1.1) ...\nSetting up libctf0:amd64 (2.38-4ubuntu2.12) ...\nSetting up libnginx-mod-mail (1.18.0-6ubuntu14.22) ...\nSetting up openssh-sftp-server (1:8.9p1-3ubuntu0.18) ...\nSetting up libperl5.34:amd64 (5.34.0-3ubuntu1.9) ...\nSetting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.4) ...\nSetting up libnginx-mod-stream (1.18.0-6ubuntu14.22) ...\nSetting up e2fsprogs (1.46.5-2ubuntu1.2) ...\nSetting up libldap-2.5-0:amd64 (2.5.20+dfsg-0ubuntu0.22.04.1) ...\nSetting up perl (5.34.0-3ubuntu1.9) ...\nSetting up libfreetype6:amd64 (2.11.1+dfsg-1ubuntu0.4) ...\nSetting up libgd3:amd64 (2.3.0-2ubuntu2.3) ...\nSetting up procps (2:3.3.17-6ubuntu2.1) ...\nSetting up libxslt1.1:amd64 (1.1.34-4ubuntu0.22.04.5) ...\nSetting up libcurl4:amd64 (7.81.0-1ubuntu1.30) ...\nSetting up curl (7.81.0-1ubuntu1.30) ...\nSetting up libbpf0:amd64 (1:0.5.0-1ubuntu22.04.1) ...\nSetting up libnginx-mod-stream-geoip2 (1.18.0-6ubuntu14.22) ...\nSetting up libmodule-scandeps-perl (1.31-1ubuntu0.1) ...\nSetting up binutils-x86-64-linux-gnu (2.38-4ubuntu2.12) ...\nSetting up openssh-server (1:8.9p1-3ubuntu0.18) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of restart.\nSetting up iproute2 (5.15.0-1ubuntu2.2) ...\nSetting up libnginx-mod-http-image-filter (1.18.0-6ubuntu14.22) ...\nSetting up binutils (2.38-4ubuntu2.12) ...\nSetting up libnginx-mod-http-xslt-filter (1.18.0-6ubuntu14.22) ...\nSetting up nginx-core (1.18.0-6ubuntu14.22) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of start.\nSetting up needrestart (3.5-5ubuntu2.5) ...\nProcessing triggers for libc-bin (2.35-0ubuntu3.15) ...\n\nFailed to retrieve available kernel versions.\n\nFailed to check for processor microcode upgrades.\n\nNo services need to be restarted.\n\nNo containers need to be restarted.\n\nNo user sessions are running outdated binaries.\n\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\ndebconf: delaying package configuration, since apt-utils is not installed\n"
+  },
+  {
+   "step": "install-old-kernel",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669462.72,
+   "output": "Selecting previously unselected package kmod.\n(Reading database ... 9023 files and directories currently installed.)\nPreparing to unpack .../kmod_29-1ubuntu1_amd64.deb ...\nUnpacking kmod (29-1ubuntu1) ...\nSelecting previously unselected package libkmod2:amd64.\nPreparing to unpack .../libkmod2_29-1ubuntu1_amd64.deb ...\nUnpacking libkmod2:amd64 (29-1ubuntu1) ...\nSelecting previously unselected package linux-base.\nPreparing to unpack .../linux-base_4.5ubuntu9_all.deb ...\nUnpacking linux-base (4.5ubuntu9) ...\nSelecting previously unselected package linux-image-5.15.0-25-generic.\nPreparing to unpack .../linux-image-5.15.0-25-generic_5.15.0-25.25_amd64.deb ...\nUnpacking linux-image-5.15.0-25-generic (5.15.0-25.25) ...\nSelecting previously unselected package linux-modules-5.15.0-25-generic.\nPreparing to unpack .../linux-modules-5.15.0-25-generic_5.15.0-25.25_amd64.deb ...\nUnpacking linux-modules-5.15.0-25-generic (5.15.0-25.25) ...\nSetting up libkmod2:amd64 (29-1ubuntu1) ...\nSetting up linux-base (4.5ubuntu9) ...\nSetting up kmod (29-1ubuntu1) ...\nSetting up linux-image-5.15.0-25-generic (5.15.0-25.25) ...\nI: /boot/vmlinuz.old is now a symlink to vmlinuz-5.15.0-25-generic\nI: /boot/initrd.img.old is now a symlink to initrd.img-5.15.0-25-generic\nI: /boot/vmlinuz is now a symlink to vmlinuz-5.15.0-25-generic\nI: /boot/initrd.img is now a symlink to initrd.img-5.15.0-25-generic\nSetting up linux-modules-5.15.0-25-generic (5.15.0-25.25) ...\nProcessing triggers for libc-bin (2.35-0ubuntu3.15) ...\nProcessing triggers for linux-image-5.15.0-25-generic (5.15.0-25.25) ...\n"
+  },
+  {
+   "step": "reboot",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669464.88,
+   "output": "fp-h-ubuntu-2204-S6-r2\n"
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669467.0,
+   "output": ""
+  }
+ ],
+ "finished": 1794669501.766692
+}

@@ -1,0 +1,44 @@
+{
+ "distro": "ubuntu-22.04",
+ "state": "S7",
+ "repeat": 3,
+ "image": "fixproof/ubuntu-22.04:s0",
+ "started": 1794670434.3584821,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.2
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2204-S7-r3.tar\"\nStarting filesystem walk for root: \nEnd status: 1311 dirs visited, 7949 inodes visited, 1 Extract calls, 9.007496ms elapsed, 9.007853ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.340226ms elapsed, 1.340513ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 739.235\u00b5s elapsed, 739.37\u00b5s wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 6.6
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu22.04\t183 installed\n\nWarning: [Failed to scan need-restarting processes:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:259\n  - Failed to LANGUAGE=en_US.UTF-8 checkrestart. status: 127, stdout: , stderr: /bin/sh: 1: sudo: not found:\n    github.com/future-architect/vuls/scanner.(*debian).checkrestart\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:1182]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.7
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-22.04:s0",
+   "rc": 0,
+   "t": 1794670434.56,
+   "output": ""
+  },
+  {
+   "step": "remove",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670436.02,
+   "output": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following packages were automatically installed and are no longer required:\n  libwrap0 openssh-sftp-server\nUse 'apt autoremove' to remove them.\nThe following packages will be REMOVED:\n  openssh-server sudo\n0 upgraded, 0 newly installed, 2 to remove and 117 not upgraded.\nAfter this operation, 4101 kB disk space will be freed.\n(Reading database ... \n(Reading database ... 5%\n(Reading database ... 10%\n(Reading database ... 15%\n(Reading database ... 20%\n(Reading database ... 25%\n(Reading database ... 30%\n(Reading database ... 35%\n(Reading database ... 40%\n(Reading database ... 45%\n(Reading database ... 50%\n(Reading database ... 55%\n(Reading database ... 60%\n(Reading database ... 65%\n(Reading database ... 70%\n(Reading database ... 75%\n(Reading database ... 80%\n(Reading database ... 85%\n(Reading database ... 90%\n(Reading database ... 95%\n(Reading database ... 100%\n(Reading database ... 9023 files and directories currently installed.)\nRemoving openssh-server (1:8.9p1-3) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of stop.\nRemoving sudo (1.9.9-1ubuntu2) ...\nProcessing triggers for libc-bin (2.35-0ubuntu3) ...\n"
+  }
+ ],
+ "finished": 1794670450.3355625
+}

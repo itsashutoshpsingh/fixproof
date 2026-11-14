@@ -1,0 +1,51 @@
+{
+ "distro": "ubuntu-24.04",
+ "state": "S5",
+ "repeat": 3,
+ "image": "fixproof/ubuntu-24.04:s0",
+ "started": 1794670622.6576931,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 0.9
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2404-S5-r3.tar\"\nStarting filesystem walk for root: \nEnd status: 1222 dirs visited, 7299 inodes visited, 1 Extract calls, 12.837358ms elapsed, 12.837887ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 2.557463ms elapsed, 2.558431ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.277691ms elapsed, 1.278106ms wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 5.0
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu24.04\t149 installed\n\n\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 1.1
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-24.04:s0",
+   "rc": 0,
+   "t": 1794670622.85,
+   "output": ""
+  },
+  {
+   "step": "mitigate",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670622.93,
+   "output": "+ sed -i '1i LoginGraceTime 0\\nCiphers -chacha20-poly1305@openssh.com\\nMACs -*-etm@openssh.com' /etc/ssh/sshd_config\n+ '[' -e /usr/bin/pkexec ']'\n+ '[' -e /etc/sudoers ']'\n+ echo 'Defaults!sudoedit env_delete+=\"SUDO_EDITOR VISUAL EDITOR\"'\n+ chmod 0440 /etc/sudoers.d/90-mitigation\n+ for f in /usr/lib/x86_64-linux-gnu/gconv/gconv-modules /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf\n+ '[' -e /usr/lib/x86_64-linux-gnu/gconv/gconv-modules ']'\n+ sed -i -E 's/^(alias\\s+ISO-IR-165\\/\\/|alias\\s+ISO2022CNEXT\\/\\/|module\\s+.*ISO-2022-CN-EXT.*)/#&/' /usr/lib/x86_64-linux-gnu/gconv/gconv-modules\n+ for f in /usr/lib/x86_64-linux-gnu/gconv/gconv-modules /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf\n+ '[' -e /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf ']'\n+ sed -i -E 's/^(alias\\s+ISO-IR-165\\/\\/|alias\\s+ISO2022CNEXT\\/\\/|module\\s+.*ISO-2022-CN-EXT.*)/#&/' /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf\n+ iconvconfig\n"
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670625.04,
+   "output": ""
+  }
+ ],
+ "finished": 1794670639.5274239
+}

@@ -1,0 +1,18 @@
+{
+ "ran": true,
+ "banner": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4",
+ "listener": [
+  {
+   "pid": 1566,
+   "exe_deleted": true
+  }
+ ],
+ "connection": [
+  {
+   "pid": 2050,
+   "cmdline": "sshd: [accepted]",
+   "exe_deleted": true,
+   "exe_build_id": "f4f0b1b2867cdd9add6ef316283fdb3944175577"
+  }
+ ]
+}

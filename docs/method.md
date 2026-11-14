@@ -87,8 +87,8 @@ local machine for `fixproof verify`). It records:
 - for every process: start time, executable, every deleted mapping, and for each mapped object
   that is deleted or of interest, its sha256 and build ID read through
   `/proc/<pid>/map_files/<range>` (this works for deleted files);
-- the running kernel, mitigation checks (a shell test per case), and CVE ids named in the
-  package changelog (rpm; the Ubuntu images are minimised and ship no changelogs).
+- the running kernel, mitigation checks (a shell test per case), and CVE ids named in each
+  package's changelog (`rpm --changelog`, or `/usr/share/doc/<pkg>/changelog.Debian.gz`).
 
 A **build-ID index** maps each build ID seen on disk in any host of a distro to the package
 version that installed it. For S3, S8 and S9 the collector also runs before the update, so the
@@ -112,10 +112,9 @@ kernel on disk only)".
 has the vulnerable code. **stale_reachable** marks the subset where that process is the one that
 would run the vulnerable path on new input. This is a judgment per CVE, written in the case file
 with a reason. Examples: nginx workers fork from the master without exec and keep using the TLS
-library mapped at start, so they are reachable for the OpenSSL CVEs. sshd re-executes the binary
-on disk for every new connection, which the connection probe confirms on every S3 host (the
-listener's executable is deleted, the child serving the new connection is not). So a stale sshd
-listener is strictly vulnerable but not reachable for CVE-2024-6387. The glibc loader bug
+library mapped at start, so they are reachable for the OpenSSL CVEs. For sshd the call is measured, not assumed: the connection probe opens one TCP connection (no login) and checks
+whether the process serving it runs the deleted binary. On 20.04 and 22.04 it does not (sshd re-executes the binary on
+disk), on 24.04 it does, and `stale_reachable` follows the probe. The glibc loader bug
 (CVE-2023-4911) is reached only by a new exec, which loads the new loader.
 
 ## 5. Scanners

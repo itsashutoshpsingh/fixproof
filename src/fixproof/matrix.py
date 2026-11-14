@@ -104,6 +104,9 @@ def main():
             cd = case["distros"][distro]
             t = truth.evaluate(cve, case, distro, ev, index)
             reachable = t["stale_only"] and case.get("stale_reachable", False)
+            if "sshd" in (case.get("files") or []) and probe.get("connection"):
+                # measured, not assumed: does the process serving a new connection run the deleted binary?
+                reachable = t["stale_only"] and any(c["exe_deleted"] for c in probe["connection"])
             nspid = {p["pid"]: p.get("nspid", p["pid"]) for p in ev["processes"]}
             for r in t["running_vulnerable"]:
                 if r["deleted"]:

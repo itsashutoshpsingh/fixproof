@@ -1,0 +1,41 @@
+{
+ "distro": "alma-9",
+ "state": "S0",
+ "repeat": 3,
+ "image": "docker.io/library/almalinux:9.2-20230718",
+ "started": 1794670877.534266,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.1
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-alma-9-S0-r3.tar\"\nStarting filesystem walk for root: \nEnd status: 1074 dirs visited, 8689 inodes visited, 1 Extract calls, 44.39637ms elapsed, 44.396552ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 36.846315ms elapsed, 36.846616ms wall time\nLoaded AlmaLinux local db from /db/osv-scalibr/AlmaLinux/all.zip\n",
+   "seconds": 3.7
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\talma9.2\t150 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: /sbin/ip: No such file or directory\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to execute yum-ps:\n    github.com/future-architect/vuls/scanner.(*redhatBase).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/redhatbase.go:394\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: ps: command not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.6
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "docker.io/library/almalinux:9.2-20230718",
+   "rc": 0,
+   "t": 1794670877.77,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670878.84,
+   "output": ""
+  }
+ ],
+ "finished": 1794670888.7272098
+}

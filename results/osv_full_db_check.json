@@ -1,0 +1,220 @@
+[
+ {
+  "distro": "ubuntu-22.04",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 6.4,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-0286",
+    "CVE-2023-22809",
+    "CVE-2023-38545",
+    "CVE-2023-48795",
+    "CVE-2023-4911",
+    "CVE-2024-2961",
+    "CVE-2024-6119",
+    "CVE-2024-6387",
+    "CVE-2024-7264",
+    "CVE-2025-32462"
+   ],
+   "all_cves_flagged": 37
+  },
+  "full": {
+   "seconds": 214.3,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-0286",
+    "CVE-2023-22809",
+    "CVE-2023-38545",
+    "CVE-2023-48795",
+    "CVE-2023-4911",
+    "CVE-2024-2961",
+    "CVE-2024-6119",
+    "CVE-2024-6387",
+    "CVE-2024-7264",
+    "CVE-2025-32462"
+   ],
+   "all_cves_flagged": 943
+  }
+ },
+ {
+  "distro": "ubuntu-22.04",
+  "state": "S3",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 8.7,
+   "rc": 0,
+   "studied_cves_flagged": [],
+   "all_cves_flagged": 0
+  },
+  "full": {
+   "seconds": 234.8,
+   "rc": 1,
+   "studied_cves_flagged": [],
+   "all_cves_flagged": 194
+  }
+ },
+ {
+  "distro": "ubuntu-20.04",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 6.9,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2021-3156",
+    "CVE-2021-4034",
+    "CVE-2022-0778",
+    "CVE-2022-1271",
+    "CVE-2023-0286",
+    "CVE-2023-22809",
+    "CVE-2023-48795",
+    "CVE-2024-2961",
+    "CVE-2024-7264"
+   ],
+   "all_cves_flagged": 36
+  },
+  "full": {
+   "seconds": 228.7,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2021-3156",
+    "CVE-2021-4034",
+    "CVE-2022-0778",
+    "CVE-2022-1271",
+    "CVE-2023-0286",
+    "CVE-2023-22809",
+    "CVE-2023-48795",
+    "CVE-2024-2961",
+    "CVE-2024-7264"
+   ],
+   "all_cves_flagged": 1157
+  }
+ },
+ {
+  "distro": "ubuntu-24.04",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 5.6,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2024-2961",
+    "CVE-2024-5535",
+    "CVE-2024-6119",
+    "CVE-2024-6387",
+    "CVE-2024-7264",
+    "CVE-2025-32462",
+    "CVE-2025-32463"
+   ],
+   "all_cves_flagged": 10
+  },
+  "full": {
+   "seconds": 202.8,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2024-2961",
+    "CVE-2024-5535",
+    "CVE-2024-6119",
+    "CVE-2024-6387",
+    "CVE-2024-7264",
+    "CVE-2025-32462",
+    "CVE-2025-32463"
+   ],
+   "all_cves_flagged": 534
+  }
+ },
+ {
+  "distro": "debian-12-nginx",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 4.4,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-46218",
+    "CVE-2023-5363",
+    "CVE-2023-6246"
+   ],
+   "all_cves_flagged": 10
+  },
+  "full": {
+   "seconds": 11.7,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-46218",
+    "CVE-2023-5363",
+    "CVE-2023-6246"
+   ],
+   "all_cves_flagged": 567
+  }
+ },
+ {
+  "distro": "alpine-3.18-nginx",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 1.2,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-46218",
+    "CVE-2023-5363",
+    "CVE-2023-5678"
+   ],
+   "all_cves_flagged": 6
+  },
+  "full": {
+   "seconds": 2.4,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-46218",
+    "CVE-2023-5363",
+    "CVE-2023-5678"
+   ],
+   "all_cves_flagged": 46
+  }
+ },
+ {
+  "distro": "rocky-9",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 3.6,
+   "rc": 1,
+   "studied_cves_flagged": [],
+   "all_cves_flagged": 10
+  },
+  "full": {
+   "seconds": 5.0,
+   "rc": 1,
+   "studied_cves_flagged": [],
+   "all_cves_flagged": 258
+  }
+ },
+ {
+  "distro": "alma-9",
+  "state": "S0",
+  "same_verdicts_on_studied_cves": true,
+  "filtered": {
+   "seconds": 4.0,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-38545",
+    "CVE-2023-4911",
+    "CVE-2023-5363"
+   ],
+   "all_cves_flagged": 25
+  },
+  "full": {
+   "seconds": 5.8,
+   "rc": 1,
+   "studied_cves_flagged": [
+    "CVE-2023-38545",
+    "CVE-2023-4911",
+    "CVE-2023-5363"
+   ],
+   "all_cves_flagged": 354
+  }
+ }
+]

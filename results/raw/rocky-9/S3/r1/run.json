@@ -1,0 +1,48 @@
+{
+ "distro": "rocky-9",
+ "state": "S3",
+ "repeat": 1,
+ "image": "mirror.gcr.io/library/rockylinux:9.2.20230513",
+ "started": 1794668972.3147914,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.4
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-rocky-9-S3-r1.tar\"\nStarting filesystem walk for root: \nEnd status: 1028 dirs visited, 8712 inodes visited, 1 Extract calls, 47.851372ms elapsed, 47.851791ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 33.119956ms elapsed, 33.120327ms wall time\nLoaded Rocky Linux local db from /db/osv-scalibr/Rocky Linux/all.zip\n",
+   "seconds": 5.4
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\trocky9.3\t141 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: /sbin/ip: No such file or directory\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to execute yum-ps:\n    github.com/future-architect/vuls/scanner.(*redhatBase).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/redhatbase.go:394\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: ps: command not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.6
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/rockylinux:9.2.20230513",
+   "rc": 0,
+   "t": 1794668972.48,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668973.55,
+   "output": ""
+  },
+  {
+   "step": "overlay",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668978.83,
+   "output": "idation/rules.py\", \"/usr/share/crypto-policies/python/policygenerators/__init__.py\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/__init__.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/__init__.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/bind.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/bind.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/configgenerator.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/configgenerator.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/gnutls.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/gnutls.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/java.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/java.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/krb5.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/krb5.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libreswan.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libreswan.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libssh.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libssh.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/nss.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/nss.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssh.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssh.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssl.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssl.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/gnutls.py\", \"/usr/share/crypto-policies/python/policygenerators/krb5.py\", \"/usr/share/crypto-policies/python/policygenerators/nss.py\", \"/usr/share/crypto-policies/python/policygenerators/openssl.py\", \"/usr/share/gcc-11/python/libstdcxx/__pycache__/__init__.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/__pycache__/__init__.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/__init__.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/__init__.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/printers.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/printers.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/xmethods.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/xmethods.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/printers.py\", \"/usr/share/gcc-11/python/libstdcxx/v6/xmethods.py\", \"/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.29-gdb.cpython-39.opt-1.pyc\", \"/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.29-gdb.cpython-39.pyc\", \"/usr/share/licenses/krb5-libs/LICENSE\", \"/usr/share/misc/magic\", \"/usr/share/misc/magic.mgc\", \"/usr/share/pki/ca-trust-source/ca-bundle.trust.p11-kit\", \"/usr/share/python3-wheels/pip-21.2.3-py3-none-any.whl\", \"/usr/share/terminfo/p/putty-256color\", \"/usr/share/terminfo/s/screen.putty-256color\", \"/var/cache/ldconfig/aux-cache\", \"/var/lib/rpm/rpmdb.sqlite\", \"/var/log/anaconda/anaconda.log\", \"/var/log/anaconda/dbus.log\", \"/var/log/anaconda/dnf.librepo.log\", \"/var/log/anaconda/hawkey.log\", \"/var/log/anaconda/journal.log\", \"/var/log/anaconda/lorax-packages.log\", \"/var/log/anaconda/lvm.log\", \"/var/log/anaconda/packaging.log\", \"/var/log/anaconda/program.log\", \"/var/log/anaconda/storage.log\", \"/var/log/anaconda/syslog\"]}"
+  }
+ ],
+ "finished": 1794668994.796141
+}

@@ -1,0 +1,41 @@
+{
+ "distro": "rocky-9",
+ "state": "SU",
+ "repeat": 2,
+ "image": "mirror.gcr.io/library/rockylinux:9.3.20231119",
+ "started": 1794669876.1538043,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 0.6
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-rocky-9-SU-r2.tar\"\nStarting filesystem walk for root: \nEnd status: 1008 dirs visited, 8117 inodes visited, 1 Extract calls, 40.089601ms elapsed, 40.089853ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 33.050417ms elapsed, 33.050618ms wall time\nLoaded Rocky Linux local db from /db/osv-scalibr/Rocky Linux/all.zip\n",
+   "seconds": 3.4
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\trocky9.3\t141 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: /sbin/ip: No such file or directory\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to execute yum-ps:\n    github.com/future-architect/vuls/scanner.(*redhatBase).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/redhatbase.go:394\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: ps: command not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.6
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/rockylinux:9.3.20231119",
+   "rc": 0,
+   "t": 1794669876.33,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669877.41,
+   "output": ""
+  }
+ ],
+ "finished": 1794669886.0086293
+}

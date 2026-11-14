@@ -36,7 +36,7 @@ def assess(cve: str, case: dict, distro: str, ev: dict) -> dict:
         return {"cve": cve, "verdict": "remediated" if not blockers else "not remediated",
                 "blockers": blockers, "checks": checks}
     files = set(case.get("files") or [])
-    on_disk = {f["build_id"] for f in ev.get("files", []) if f.get("build_id")}
+    on_disk = {f.get("build_id") or f.get("sha256") for f in ev.get("files", [])} - {None}
     names = files | {posixpath.basename(f.get("real_path") or f["path"]) for f in ev.get("files", [])
                      if posixpath.basename(f["path"]) in files}
     for pkg, fv in d["fixed"].items():
@@ -53,16 +53,17 @@ def assess(cve: str, case: dict, distro: str, ev: dict) -> dict:
             base = posixpath.basename(obj["path"])
             if base not in names:
                 continue
-            if obj["deleted"] and obj.get("build_id") not in on_disk:
+            ident = obj.get("build_id") or obj.get("sha256")
+            if obj["deleted"] and ident not in on_disk:
                 blockers.append(f"pid {proc['pid']} ({proc['comm']}) still runs a replaced {base}; restart it")
-            elif not obj["deleted"] and obj.get("build_id") and obj["build_id"] not in on_disk:
+            elif not obj["deleted"] and ident and ident not in on_disk:
                 blockers.append(f"pid {proc['pid']} ({proc['comm']}) loads {obj['path']}, a copy no package owns")
     cl = sorted(c for v in ev.get("changelog_cves", {}).values() for c in v if c == cve)
     if cl:
         checks.append({"check": "vendor changelog names the CVE", "value": True, "ok": True})
     mit = ev.get("mitigation_checks", {}).get(cve)
     if mit is not None:
-        checks.append({"check": "mitigation check", "value": mit["passed"], "ok": True})
+        checks.append({"check": "mitigation check (informational)", "value": mit["passed"], "ok": None})
     return {"cve": cve, "verdict": "remediated" if not blockers else "not remediated",
             "blockers": sorted(set(blockers)), "checks": checks}
 
@@ -88,7 +89,7 @@ def main(cves: list[str], distro: str | None, as_json: bool, container: str | No
         for p in packs:
             print(f"{p['cve']}: {p['verdict'].upper()}")
             for c in p["checks"]:
-                print(f"  [{'ok' if c['ok'] else '!!'}] {c['check']}: {c['value']}")
+                print(f"  [{'..' if c['ok'] is None else 'ok' if c['ok'] else '!!'}] {c['check']}: {c['value']}")
             for b in p["blockers"]:
                 print(f"  BLOCKER {b}")
     return 0 if all(p["verdict"] == "remediated" for p in packs) else 1

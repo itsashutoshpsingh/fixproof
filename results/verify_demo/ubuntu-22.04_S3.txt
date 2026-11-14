@@ -1,0 +1,35 @@
+$ fixproof verify CVE-2024-6387 CVE-2023-4911 CVE-2023-0286 CVE-2024-2961 CVE-2025-32462   # on a ubuntu-22.04 host in state S3
+CVE-2024-6387: NOT REMEDIATED
+  [ok] openssh-server >= 1:8.9p1-3ubuntu0.10: 1:8.9p1-3ubuntu0.18
+  [ok] vendor changelog names the CVE: True
+  [..] mitigation check (informational): False
+  BLOCKER pid 12115 (sshd) still runs a replaced sshd; restart it
+CVE-2023-4911: NOT REMEDIATED
+  [ok] libc6 >= 2.35-0ubuntu3.4: 2.35-0ubuntu3.15
+  BLOCKER pid 12032 (sleep) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12115 (sshd) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12117 (nginx) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12118 (sudo) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12120 (nginx) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12121 (nginx) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12122 (nginx) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12123 (nginx) still runs a replaced ld-linux-x86-64.so.2; restart it
+  BLOCKER pid 12124 (sleep) still runs a replaced ld-linux-x86-64.so.2; restart it
+CVE-2023-0286: NOT REMEDIATED
+  [ok] libssl3 >= 3.0.2-0ubuntu1.8: 3.0.2-0ubuntu1.30
+  BLOCKER pid 12115 (sshd) still runs a replaced libcrypto.so.3; restart it
+  BLOCKER pid 12117 (nginx) still runs a replaced libcrypto.so.3; restart it
+  BLOCKER pid 12120 (nginx) still runs a replaced libcrypto.so.3; restart it
+  BLOCKER pid 12121 (nginx) still runs a replaced libcrypto.so.3; restart it
+  BLOCKER pid 12122 (nginx) still runs a replaced libcrypto.so.3; restart it
+  BLOCKER pid 12123 (nginx) still runs a replaced libcrypto.so.3; restart it
+CVE-2024-2961: REMEDIATED
+  [ok] libc6 >= 2.35-0ubuntu3.7: 2.35-0ubuntu3.15
+  [ok] vendor changelog names the CVE: True
+  [..] mitigation check (informational): False
+CVE-2025-32462: NOT REMEDIATED
+  [ok] sudo >= 1.9.9-1ubuntu2.5: 1.9.9-1ubuntu2.7
+  [ok] vendor changelog names the CVE: True
+  BLOCKER pid 12118 (sudo) still runs a replaced sudo; restart it
+  BLOCKER pid 12118 (sudo) still runs a replaced sudoers.so; restart it
+exit code 1

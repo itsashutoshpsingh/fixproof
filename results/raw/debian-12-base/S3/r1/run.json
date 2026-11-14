@@ -1,0 +1,48 @@
+{
+ "distro": "debian-12-base",
+ "state": "S3",
+ "repeat": 1,
+ "image": "mirror.gcr.io/library/debian:bookworm-20230919",
+ "started": 1794668872.604785,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 0.7
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-debian-12-base-S3-r1.tar\"\nStarting filesystem walk for root: \nEnd status: 781 dirs visited, 6667 inodes visited, 1 Extract calls, 7.236779ms elapsed, 7.237002ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 876.155\u00b5s elapsed, 876.286\u00b5s wall time\nLoaded Debian local db from /db/osv-scalibr/Debian/all.zip\n",
+   "seconds": 2.5
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tdebian12.2\t88 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: 1: /sbin/ip: not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to dpkg-ps:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:252\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: 1: ps: not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404 Failed to scan need-restarting processes:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:259\n  - Failed to LANGUAGE=en_US.UTF-8 checkrestart. status: 127, stdout: , stderr: /bin/sh: 1: sudo: not found:\n    github.com/future-architect/vuls/scanner.(*debian).checkrestart\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:1182]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.6
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/debian:bookworm-20230919",
+   "rc": 0,
+   "t": 1794668872.78,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668872.86,
+   "output": ""
+  },
+  {
+   "step": "overlay",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668875.6,
+   "output": "inux-gnu/security/pam_faillock.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_filter.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_ftp.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_group.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_issue.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_keyinit.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_lastlog.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_limits.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_listfile.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_localuser.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_loginuid.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_mail.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_mkhomedir.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_motd.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_namespace.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_nologin.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_permit.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_pwhistory.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_rhosts.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_rootok.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_securetty.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_selinux.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_sepermit.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_setquota.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_shells.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_stress.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_succeed_if.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_time.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_timestamp.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_tty_audit.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_umask.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_unix.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_userdb.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_usertype.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_warn.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_wheel.so\", \"/usr/lib/x86_64-linux-gnu/security/pam_xauth.so\", \"/usr/sbin/faillock\", \"/usr/sbin/iconvconfig\", \"/usr/sbin/ldconfig\", \"/usr/sbin/mkhomedir_helper\", \"/usr/sbin/pam-auth-update\", \"/usr/sbin/pam_timestamp_check\", \"/usr/sbin/pwhistory_helper\", \"/usr/sbin/unix_chkpwd\", \"/usr/sbin/unix_update\", \"/usr/sbin/update-shells\", \"/usr/sbin/zic\", \"/usr/share/doc/base-files/changelog.gz\", \"/usr/share/doc/debian-archive-keyring/changelog.gz\", \"/usr/share/doc/debianutils/changelog.Debian.gz\", \"/usr/share/doc/libc-bin/changelog.Debian.gz\", \"/usr/share/doc/libc6/NEWS.gz\", \"/usr/share/doc/libc6/changelog.Debian.gz\", \"/usr/share/doc/libpam-modules/changelog.Debian.gz\", \"/usr/share/doc/libpam-modules-bin/changelog.Debian.gz\", \"/usr/share/doc/libpam-runtime/changelog.Debian.gz\", \"/usr/share/doc/libpam0g/changelog.Debian.gz\", \"/usr/share/doc/libsystemd0/changelog.Debian.gz\", \"/usr/share/doc/libudev1/changelog.Debian.gz\", \"/usr/share/man/man8/pam_getenv.8.gz\", \"/var/cache/debconf/templates.dat\", \"/var/cache/debconf/templates.dat-old\", \"/var/lib/dpkg/available\", \"/var/lib/dpkg/info/base-files.md5sums\", \"/var/lib/dpkg/info/debian-archive-keyring.md5sums\", \"/var/lib/dpkg/info/debian-archive-keyring.postinst\", \"/var/lib/dpkg/info/debian-archive-keyring.postrm\", \"/var/lib/dpkg/info/debian-archive-keyring.preinst\", \"/var/lib/dpkg/info/debian-archive-keyring.prerm\", \"/var/lib/dpkg/info/debianutils.md5sums\", \"/var/lib/dpkg/info/libc-bin.md5sums\", \"/var/lib/dpkg/info/libc6:amd64.md5sums\", \"/var/lib/dpkg/info/libc6:amd64.postinst\", \"/var/lib/dpkg/info/libpam-modules-bin.md5sums\", \"/var/lib/dpkg/info/libpam-modules:amd64.md5sums\", \"/var/lib/dpkg/info/libpam-modules:amd64.templates\", \"/var/lib/dpkg/info/libpam-runtime.md5sums\", \"/var/lib/dpkg/info/libpam-runtime.templates\", \"/var/lib/dpkg/info/libpam0g:amd64.md5sums\", \"/var/lib/dpkg/info/libpam0g:amd64.templates\", \"/var/lib/dpkg/info/libsystemd0:amd64.md5sums\", \"/var/lib/dpkg/info/libsystemd0:amd64.shlibs\", \"/var/lib/dpkg/info/libudev1:amd64.md5sums\", \"/var/lib/dpkg/info/libudev1:amd64.shlibs\", \"/var/lib/dpkg/status\", \"/var/lib/dpkg/status-old\", \"/var/lib/shells.state\"]}"
+  }
+ ],
+ "finished": 1794668882.743332
+}

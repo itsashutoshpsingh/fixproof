@@ -1,0 +1,44 @@
+{
+ "distro": "ubuntu-20.04",
+ "state": "S0",
+ "repeat": 1,
+ "image": "fixproof/ubuntu-20.04:s0",
+ "started": 1794668129.7899249,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.6
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2004-S0-r1.tar\"\nStarting filesystem walk for root: \nEnd status: 1421 dirs visited, 10680 inodes visited, 1 Extract calls, 13.604858ms elapsed, 13.605341ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.710449ms elapsed, 1.710687ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 838.204\u00b5s elapsed, 838.359\u00b5s wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 6.4
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu20.04\t206 installed\n\nWarning: [Extended support available until 2030-04-01. Check the vendor site. Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.9
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-20.04:s0",
+   "rc": 0,
+   "t": 1794668129.97,
+   "output": ""
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668131.05,
+   "output": ""
+  }
+ ],
+ "finished": 1794668148.9445019
+}

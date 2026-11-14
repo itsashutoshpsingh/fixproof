@@ -1,0 +1,51 @@
+{
+ "distro": "ubuntu-20.04",
+ "state": "S5",
+ "repeat": 3,
+ "image": "fixproof/ubuntu-20.04:s0",
+ "started": 1794670082.1382217,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.2
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2004-S5-r3.tar\"\nStarting filesystem walk for root: \nEnd status: 1421 dirs visited, 10681 inodes visited, 1 Extract calls, 19.278377ms elapsed, 19.278573ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 2.203337ms elapsed, 2.203534ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 668.888\u00b5s elapsed, 668.963\u00b5s wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 6.1
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu20.04\t206 installed\n\nWarning: [Extended support available until 2030-04-01. Check the vendor site. Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.9
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-20.04:s0",
+   "rc": 0,
+   "t": 1794670082.33,
+   "output": ""
+  },
+  {
+   "step": "mitigate",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670082.42,
+   "output": "+ sed -i '1i LoginGraceTime 0\\nCiphers -chacha20-poly1305@openssh.com\\nMACs -*-etm@openssh.com' /etc/ssh/sshd_config\n+ '[' -e /usr/bin/pkexec ']'\n+ chmod 0755 /usr/bin/pkexec\n+ '[' -e /etc/sudoers ']'\n+ echo 'Defaults!sudoedit env_delete+=\"SUDO_EDITOR VISUAL EDITOR\"'\n+ chmod 0440 /etc/sudoers.d/90-mitigation\n+ for f in /usr/lib/x86_64-linux-gnu/gconv/gconv-modules /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf\n+ '[' -e /usr/lib/x86_64-linux-gnu/gconv/gconv-modules ']'\n+ sed -i -E 's/^(alias\\s+ISO-IR-165\\/\\/|alias\\s+ISO2022CNEXT\\/\\/|module\\s+.*ISO-2022-CN-EXT.*)/#&/' /usr/lib/x86_64-linux-gnu/gconv/gconv-modules\n+ for f in /usr/lib/x86_64-linux-gnu/gconv/gconv-modules /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf\n+ '[' -e /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.d/gconv-modules-extra.conf ']'\n+ iconvconfig\n"
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670084.54,
+   "output": ""
+  }
+ ],
+ "finished": 1794670102.4833546
+}

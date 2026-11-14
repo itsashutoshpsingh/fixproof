@@ -1,0 +1,58 @@
+{
+ "distro": "ubuntu-24.04",
+ "state": "S2",
+ "repeat": 2,
+ "image": "fixproof/ubuntu-24.04:s0",
+ "started": 1794669604.4330676,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.4
+  },
+  "osv-scanner": {
+   "rc": 0,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2404-S2-r2.tar\"\nStarting filesystem walk for root: \nEnd status: 1223 dirs visited, 7200 inodes visited, 1 Extract calls, 10.309572ms elapsed, 10.30963ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.181491ms elapsed, 1.181559ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 706.47\u00b5s elapsed, 706.592\u00b5s wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 7.3
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu24.04\t149 installed\n\n\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.9
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-24.04:s0",
+   "rc": 0,
+   "t": 1794669604.58,
+   "output": ""
+  },
+  {
+   "step": "upgrade",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669618.05,
+   "output": "g to unpack .../15-curl_8.5.0-2ubuntu10.16_amd64.deb ...\nUnpacking curl (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10) ...\nPreparing to unpack .../16-libcurl4t64_8.5.0-2ubuntu10.16_amd64.deb ...\nUnpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.16) over (8.5.0-2ubuntu10) ...\nPreparing to unpack .../17-debian-goodies_0.88.1ubuntu1.3_all.deb ...\nUnpacking debian-goodies (0.88.1ubuntu1.3) over (0.88.1ubuntu1) ...\nPreparing to unpack .../18-libmodule-scandeps-perl_1.35-1ubuntu0.24.04.1_all.deb ...\nUnpacking libmodule-scandeps-perl (1.35-1ubuntu0.24.04.1) over (1.35-1) ...\nPreparing to unpack .../19-needrestart_3.6-7ubuntu4.5_all.deb ...\nUnpacking needrestart (3.6-7ubuntu4.5) over (3.6-7ubuntu4) ...\nPreparing to unpack .../20-nginx_1.24.0-2ubuntu7.19_amd64.deb ...\nUnpacking nginx (1.24.0-2ubuntu7.19) over (1.24.0-2ubuntu7) ...\nPreparing to unpack .../21-nginx-common_1.24.0-2ubuntu7.19_all.deb ...\nUnpacking nginx-common (1.24.0-2ubuntu7.19) over (1.24.0-2ubuntu7) ...\nSetting up libexpat1:amd64 (2.6.1-2ubuntu0.6) ...\nSetting up libapparmor1:amd64 (4.0.1really4.0.1-0ubuntu0.24.04.9) ...\nSetting up libbrotli1:amd64 (1.1.0-2ubuntu0.1) ...\nSetting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.17) ...\nSetting up libnghttp2-14:amd64 (1.59.0-1ubuntu0.4) ...\nSetting up nginx-common (1.24.0-2ubuntu7.19) ...\nSetting up libcom-err2:amd64 (1.47.0-2.4~exp1ubuntu4.1) ...\nSetting up libelf1t64:amd64 (0.190-1.1ubuntu0.1) ...\nSetting up libkrb5support0:amd64 (1.20.1-6ubuntu2.10) ...\nSetting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...\nSetting up libcap2-bin (1:2.66-5ubuntu2.4) ...\nSetting up xz-utils (5.6.1+really5.4.5-1ubuntu0.4) ...\nSetting up perl-modules-5.38 (5.38.2-3.2ubuntu0.6) ...\nSetting up libproc2-0:amd64 (2:4.0.4-4ubuntu3.3) ...\nSetting up libss2:amd64 (1.47.0-2.4~exp1ubuntu4.1) ...\nSetting up sudo (1.9.15p5-3ubuntu5.24.04.4) ...\nSetting up libncursesw6:amd64 (6.4+20240113-1ubuntu2.2) ...\nSetting up libk5crypto3:amd64 (1.20.1-6ubuntu2.10) ...\nSetting up logsave (1.47.0-2.4~exp1ubuntu4.1) ...\nSetting up libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...\nSetting up mount (2.39.3-9ubuntu6.6) ...\nSetting up procps (2:4.0.4-4ubuntu3.3) ...\nSetting up libkrb5-3:amd64 (1.20.1-6ubuntu2.10) ...\nSetting up libperl5.38t64:amd64 (5.38.2-3.2ubuntu0.6) ...\nSetting up openssl (3.0.13-0ubuntu3.16) ...\nSetting up libbsd0:amd64 (0.12.1-1build1.1) ...\nSetting up libldap2:amd64 (2.6.10+dfsg-0ubuntu0.24.04.1) ...\nSetting up debian-goodies (0.88.1ubuntu1.3) ...\nSetting up python3.12-minimal (3.12.3-1ubuntu0.17) ...\nSetting up iproute2 (6.1.0-1ubuntu6.4) ...\nSetting up e2fsprogs (1.47.0-2.4~exp1ubuntu4.1) ...\nSetting up perl (5.38.2-3.2ubuntu0.6) ...\nSetting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.10) ...\nSetting up libssh-4:amd64 (0.10.6-2ubuntu0.5) ...\nSetting up python3-minimal (3.12.3-0ubuntu2.1) ...\nSetting up libmodule-scandeps-perl (1.35-1ubuntu0.24.04.1) ...\nSetting up needrestart (3.6-7ubuntu4.5) ...\nInstalling new version of config file /etc/needrestart/needrestart.conf ...\nSetting up libcurl4t64:amd64 (8.5.0-2ubuntu10.16) ...\nSetting up nginx (1.24.0-2ubuntu7.19) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of start.\nSetting up openssh-client (1:9.6p1-3ubuntu13.20) ...\nSetting up curl (8.5.0-2ubuntu10.16) ...\nSetting up openssh-sftp-server (1:9.6p1-3ubuntu13.20) ...\nSetting up openssh-server (1:9.6p1-3ubuntu13.20) ...\nReplacing config file /etc/ssh/sshd_config with new version\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of restart.\nProcessing triggers for libc-bin (2.39-0ubuntu8.9) ...\ndebconf: delaying package configuration, since apt-utils is not installed\n\nFailed to retrieve available kernel versions.\n\nThe processor microcode seems to be up-to-date.\n\nNo services need to be restarted.\n\nNo containers need to be restarted.\n\nNo user sessions are running outdated binaries.\n\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\n"
+  },
+  {
+   "step": "reboot",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669620.22,
+   "output": "fp-h-ubuntu-2404-S2-r2\n"
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669622.32,
+   "output": ""
+  }
+ ],
+ "finished": 1794669645.4613616
+}

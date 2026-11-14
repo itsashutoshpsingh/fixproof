@@ -1,0 +1,48 @@
+{
+ "distro": "debian-12-nginx",
+ "state": "S3",
+ "repeat": 1,
+ "image": "mirror.gcr.io/library/nginx:1.25.2",
+ "started": 1794668907.7595494,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.2
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-debian-12-nginx-S3-r1.tar\"\nStarting filesystem walk for root: \nEnd status: 643 dirs visited, 5795 inodes visited, 1 Extract calls, 5.689174ms elapsed, 5.689312ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.225266ms elapsed, 1.225565ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 792.776\u00b5s elapsed, 792.893\u00b5s wall time\nLoaded Debian local db from /db/osv-scalibr/Debian/all.zip\n",
+   "seconds": 4.6
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tdebian12.5\t149 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: 1: /sbin/ip: not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to dpkg-ps:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:252\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: 1: ps: not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404 Failed to scan need-restarting processes:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:259\n  - Failed to LANGUAGE=en_US.UTF-8 checkrestart. status: 127, stdout: , stderr: /bin/sh: 1: sudo: not found:\n    github.com/future-architect/vuls/scanner.(*debian).checkrestart\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:1182]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.7
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/nginx:1.25.2",
+   "rc": 0,
+   "t": 1794668908.03,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668911.14,
+   "output": "2026/11/14 15:08:28 [notice] 13#13: using the \"epoll\" event method\n2026/11/14 15:08:28 [notice] 13#13: nginx/1.25.2\n2026/11/14 15:08:28 [notice] 13#13: built by gcc 12.2.0 (Debian 12.2.0-14) \n2026/11/14 15:08:28 [notice] 13#13: OS: Linux 6.18.44-fc-v470\n2026/11/14 15:08:28 [notice] 13#13: getrlimit(RLIMIT_NOFILE): 20000:20000\n2026/11/14 15:08:28 [notice] 14#14: start worker processes\n2026/11/14 15:08:28 [notice] 14#14: start worker process 16\n2026/11/14 15:08:28 [notice] 14#14: start worker process 17\n2026/11/14 15:08:28 [notice] 14#14: start worker process 18\n2026/11/14 15:08:28 [notice] 14#14: start worker process 19\n"
+  },
+  {
+   "step": "overlay",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668914.15,
+   "output": "fo/right/Europe/Zurich\", \"/usr/share/zoneinfo/right/Factory\", \"/usr/share/zoneinfo/right/HST\", \"/usr/share/zoneinfo/right/Indian/Antananarivo\", \"/usr/share/zoneinfo/right/Indian/Chagos\", \"/usr/share/zoneinfo/right/Indian/Christmas\", \"/usr/share/zoneinfo/right/Indian/Cocos\", \"/usr/share/zoneinfo/right/Indian/Comoro\", \"/usr/share/zoneinfo/right/Indian/Kerguelen\", \"/usr/share/zoneinfo/right/Indian/Mahe\", \"/usr/share/zoneinfo/right/Indian/Maldives\", \"/usr/share/zoneinfo/right/Indian/Mauritius\", \"/usr/share/zoneinfo/right/Indian/Mayotte\", \"/usr/share/zoneinfo/right/Indian/Reunion\", \"/usr/share/zoneinfo/right/MET\", \"/usr/share/zoneinfo/right/MST\", \"/usr/share/zoneinfo/right/MST7MDT\", \"/usr/share/zoneinfo/right/PST8PDT\", \"/usr/share/zoneinfo/right/Pacific/Apia\", \"/usr/share/zoneinfo/right/Pacific/Auckland\", \"/usr/share/zoneinfo/right/Pacific/Bougainville\", \"/usr/share/zoneinfo/right/Pacific/Chatham\", \"/usr/share/zoneinfo/right/Pacific/Chuuk\", \"/usr/share/zoneinfo/right/Pacific/Easter\", \"/usr/share/zoneinfo/right/Pacific/Efate\", \"/usr/share/zoneinfo/right/Pacific/Fakaofo\", \"/usr/share/zoneinfo/right/Pacific/Fiji\", \"/usr/share/zoneinfo/right/Pacific/Funafuti\", \"/usr/share/zoneinfo/right/Pacific/Galapagos\", \"/usr/share/zoneinfo/right/Pacific/Gambier\", \"/usr/share/zoneinfo/right/Pacific/Guadalcanal\", \"/usr/share/zoneinfo/right/Pacific/Guam\", \"/usr/share/zoneinfo/right/Pacific/Honolulu\", \"/usr/share/zoneinfo/right/Pacific/Kanton\", \"/usr/share/zoneinfo/right/Pacific/Kiritimati\", \"/usr/share/zoneinfo/right/Pacific/Kosrae\", \"/usr/share/zoneinfo/right/Pacific/Kwajalein\", \"/usr/share/zoneinfo/right/Pacific/Majuro\", \"/usr/share/zoneinfo/right/Pacific/Marquesas\", \"/usr/share/zoneinfo/right/Pacific/Midway\", \"/usr/share/zoneinfo/right/Pacific/Nauru\", \"/usr/share/zoneinfo/right/Pacific/Niue\", \"/usr/share/zoneinfo/right/Pacific/Norfolk\", \"/usr/share/zoneinfo/right/Pacific/Noumea\", \"/usr/share/zoneinfo/right/Pacific/Pago_Pago\", \"/usr/share/zoneinfo/right/Pacific/Palau\", \"/usr/share/zoneinfo/right/Pacific/Pitcairn\", \"/usr/share/zoneinfo/right/Pacific/Pohnpei\", \"/usr/share/zoneinfo/right/Pacific/Port_Moresby\", \"/usr/share/zoneinfo/right/Pacific/Rarotonga\", \"/usr/share/zoneinfo/right/Pacific/Saipan\", \"/usr/share/zoneinfo/right/Pacific/Tahiti\", \"/usr/share/zoneinfo/right/Pacific/Tarawa\", \"/usr/share/zoneinfo/right/Pacific/Tongatapu\", \"/usr/share/zoneinfo/right/Pacific/Wake\", \"/usr/share/zoneinfo/right/Pacific/Wallis\", \"/usr/share/zoneinfo/right/WET\", \"/usr/share/zoneinfo/tzdata.zi\", \"/usr/share/zoneinfo/zone.tab\", \"/usr/share/zoneinfo/zone1970.tab\", \"/var/cache/debconf/templates.dat\", \"/var/cache/debconf/templates.dat-old\", \"/var/cache/ldconfig/aux-cache\", \"/var/lib/dpkg/available\", \"/var/lib/dpkg/info/base-files.md5sums\", \"/var/lib/dpkg/info/curl.md5sums\", \"/var/lib/dpkg/info/libc-bin.md5sums\", \"/var/lib/dpkg/info/libc6:amd64.md5sums\", \"/var/lib/dpkg/info/libc6:amd64.postinst\", \"/var/lib/dpkg/info/libcurl4:amd64.md5sums\", \"/var/lib/dpkg/info/libde265-0:amd64.md5sums\", \"/var/lib/dpkg/info/libgnutls30:amd64.md5sums\", \"/var/lib/dpkg/info/libnghttp2-14:amd64.md5sums\", \"/var/lib/dpkg/info/libnghttp2-14:amd64.symbols\", \"/var/lib/dpkg/info/libssl3:amd64.md5sums\", \"/var/lib/dpkg/info/libsystemd0:amd64.md5sums\", \"/var/lib/dpkg/info/libsystemd0:amd64.shlibs\", \"/var/lib/dpkg/info/libtiff6:amd64.md5sums\", \"/var/lib/dpkg/info/libudev1:amd64.md5sums\", \"/var/lib/dpkg/info/libudev1:amd64.shlibs\", \"/var/lib/dpkg/info/nginx-module-geoip.md5sums\", \"/var/lib/dpkg/info/nginx-module-image-filter.md5sums\", \"/var/lib/dpkg/info/nginx-module-njs.md5sums\", \"/var/lib/dpkg/info/nginx-module-xslt.md5sums\", \"/var/lib/dpkg/info/nginx.md5sums\", \"/var/lib/dpkg/info/openssl.md5sums\", \"/var/lib/dpkg/info/perl-base.md5sums\", \"/var/lib/dpkg/info/tar.md5sums\", \"/var/lib/dpkg/info/tzdata.md5sums\", \"/var/lib/dpkg/info/usr-is-merged.md5sums\", \"/var/lib/dpkg/status\", \"/var/lib/dpkg/status-old\", \"/var/log/apt/eipp.log.xz\", \"/var/log/apt/history.log\", \"/var/log/apt/term.log\", \"/var/log/dpkg.log\"]}"
+  }
+ ],
+ "finished": 1794668925.4335744
+}

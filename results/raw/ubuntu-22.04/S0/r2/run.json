@@ -1,0 +1,44 @@
+{
+ "distro": "ubuntu-22.04",
+ "state": "S0",
+ "repeat": 2,
+ "image": "fixproof/ubuntu-22.04:s0",
+ "started": 1794669313.1585736,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.3
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2204-S0-r2.tar\"\nStarting filesystem walk for root: \nEnd status: 1324 dirs visited, 8127 inodes visited, 1 Extract calls, 7.292177ms elapsed, 7.29236ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.26469ms elapsed, 1.264759ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 666.213\u00b5s elapsed, 666.309\u00b5s wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 6.0
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu22.04\t185 installed\n\n\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 1.0
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-22.04:s0",
+   "rc": 0,
+   "t": 1794669313.34,
+   "output": ""
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669314.43,
+   "output": ""
+  }
+ ],
+ "finished": 1794669332.3061128
+}

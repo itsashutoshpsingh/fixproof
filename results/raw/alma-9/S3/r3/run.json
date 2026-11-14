@@ -1,0 +1,48 @@
+{
+ "distro": "alma-9",
+ "state": "S3",
+ "repeat": 3,
+ "image": "docker.io/library/almalinux:9.2-20230718",
+ "started": 1794670900.2945583,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.5
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-alma-9-S3-r3.tar\"\nStarting filesystem walk for root: \nEnd status: 1091 dirs visited, 9377 inodes visited, 1 Extract calls, 75.666235ms elapsed, 75.666714ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 52.823734ms elapsed, 52.824048ms wall time\nLoaded AlmaLinux local db from /db/osv-scalibr/AlmaLinux/all.zip\n",
+   "seconds": 6.1
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\talma9.3\t149 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: /sbin/ip: No such file or directory\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to execute yum-ps:\n    github.com/future-architect/vuls/scanner.(*redhatBase).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/redhatbase.go:394\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: line 1: ps: command not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.7
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "docker.io/library/almalinux:9.2-20230718",
+   "rc": 0,
+   "t": 1794670900.43,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670901.51,
+   "output": ""
+  },
+  {
+   "step": "overlay",
+   "detail": "",
+   "rc": 0,
+   "t": 1794670907.12,
+   "output": "\", \"/usr/share/crypto-policies/python/cryptopolicies/validation/__pycache__/rules.cpython-39.pyc\", \"/usr/share/crypto-policies/python/cryptopolicies/validation/__pycache__/scope.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/cryptopolicies/validation/__pycache__/scope.cpython-39.pyc\", \"/usr/share/crypto-policies/python/cryptopolicies/validation/rules.py\", \"/usr/share/crypto-policies/python/policygenerators/__init__.py\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/__init__.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/__init__.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/bind.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/bind.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/configgenerator.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/configgenerator.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/gnutls.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/gnutls.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/java.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/java.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/krb5.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/krb5.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libreswan.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libreswan.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libssh.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/libssh.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/nss.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/nss.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssh.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssh.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssl.cpython-39.opt-1.pyc\", \"/usr/share/crypto-policies/python/policygenerators/__pycache__/openssl.cpython-39.pyc\", \"/usr/share/crypto-policies/python/policygenerators/gnutls.py\", \"/usr/share/crypto-policies/python/policygenerators/krb5.py\", \"/usr/share/crypto-policies/python/policygenerators/nss.py\", \"/usr/share/crypto-policies/python/policygenerators/openssl.py\", \"/usr/share/gcc-11/python/libstdcxx/__pycache__/__init__.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/__pycache__/__init__.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/__init__.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/__init__.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/printers.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/printers.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/xmethods.cpython-39.opt-1.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/__pycache__/xmethods.cpython-39.pyc\", \"/usr/share/gcc-11/python/libstdcxx/v6/printers.py\", \"/usr/share/gcc-11/python/libstdcxx/v6/xmethods.py\", \"/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.29-gdb.cpython-39.opt-1.pyc\", \"/usr/share/gdb/auto-load/usr/lib64/__pycache__/libstdc++.so.6.0.29-gdb.cpython-39.pyc\", \"/usr/share/licenses/krb5-libs/LICENSE\", \"/usr/share/misc/magic\", \"/usr/share/misc/magic.mgc\", \"/usr/share/pki/ca-trust-source/ca-bundle.trust.p11-kit\", \"/usr/share/python3-wheels/pip-21.2.3-py3-none-any.whl\", \"/var/cache/ldconfig/aux-cache\", \"/var/lib/dnf/history.sqlite\", \"/var/lib/dnf/history.sqlite-shm\", \"/var/lib/dnf/history.sqlite-wal\", \"/var/lib/rpm/rpmdb.sqlite\"]}"
+  }
+ ],
+ "finished": 1794670924.532451
+}

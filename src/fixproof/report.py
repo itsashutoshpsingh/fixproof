@@ -144,7 +144,7 @@ def main():
             f"Verdicts on cells where the installed package is fixed but a running process maps vulnerable code: "
             f"{len(stale)}. Said fixed: {len(stale_fixed)} ({pct(len(stale_fixed), len(stale))}). Of these, "
             f"{len(reach)} are cells where the stale process is the one that would run the vulnerable path for new "
-            f"input (TLS workers, vendored library); said fixed: {len(reach_fixed)} ({pct(len(reach_fixed), len(reach))}).",
+            f"input (TLS workers, vendored library, sshd where the probe showed it); said fixed: {len(reach_fixed)} ({pct(len(reach_fixed), len(reach))}).",
             ""]
     rows = []
     for st in ("S3", "S8", "S9"):
@@ -250,16 +250,16 @@ def main():
         "project": "fixproof",
         "headline": headline,
         "metrics": [
-            {"label": "false fixed, updated not restarted", "value": pct(len(s3_fixed), len(s3))},
-            {"label": "scanners fooled every time", "value": f"{len(scanners_always_fixed)} of {len(SCANNERS)}"},
-            {"label": "stale code cells said fixed", "value": f"{len(stale_fixed)} of {len(stale)}"},
-            {"label": "needrestart caught stale processes", "value": pct(*nr)},
-            {"label": "vuls caught stale processes", "value": pct(*vu)},
-            {"label": "backport false vulnerable, scanners", "value": pct(sc_s2_fv, len(sc_s2))},
-            {"label": "backport false vulnerable, banner check", "value": pct(banner_s2_fv, len(banner_s2))},
-            {"label": "mitigated hosts flagged by version", "value": pct(s5_flag, len(s5))},
-            {"label": "host builds", "value": str(len(runs))},
-            {"label": "verdicts scored", "value": str(len(cells))},
+            {"label": "False fixed, updated not restarted", "value": pct(len(s3_fixed), len(s3))},
+            {"label": "Scanners fooled every time", "value": f"{len(scanners_always_fixed)} of {len(SCANNERS)}"},
+            {"label": "Stale code verdicts said fixed", "value": f"{len(stale_fixed)} of {len(stale)}"},
+            {"label": "Needrestart caught stale programs", "value": pct(*nr)},
+            {"label": "Vuls caught stale programs", "value": pct(*vu)},
+            {"label": "Backport false vulnerable, scanners", "value": pct(sc_s2_fv, len(sc_s2))},
+            {"label": "Backport false vulnerable, banner check", "value": pct(banner_s2_fv, len(banner_s2))},
+            {"label": "Mitigated hosts flagged by version", "value": pct(s5_flag, len(s5))},
+            {"label": "Host builds", "value": str(len(runs))},
+            {"label": "Verdicts scored", "value": str(len(cells))},
         ],
         "charts": [
             {"path": "docs/img/hero_false_fixed.png", "label": "False fixed by state",
@@ -278,24 +278,26 @@ def main():
              "alt": "Diagram of the lab: host states, evidence collector, scanners, scoring"},
         ],
         "viz": [
-            {"title": "Updated but not restarted: scanners said fixed while old code ran", "unit": "%",
-             "bars": [{"label": LABEL[s].split(" ")[0], "value": round(100 * k / n, 1) if n else 0, "tone": "bad"}
-                      for s, (k, n) in per_scanner_s3.items()]
-                     + [{"label": "needrestart (flagged)", "value": round(100 * nr[0] / nr[1], 1) if nr[1] else 0,
-                         "tone": "good"}]},
+            {"title": "Updated but not restarted: share of verdicts that said fixed while old code ran", "unit": "%",
+             "bars": [{"label": LABEL[s].rsplit(" ", 1)[0], "value": round(100 * k / n, 1) if n else 0, "tone": "bad"}
+                      for s, (k, n) in per_scanner_s3.items()]},
+            {"title": "Restart detectors: share of stale vulnerable programs they flagged", "unit": "%",
+             "bars": [{"label": "Needrestart", "value": round(100 * nr[0] / nr[1], 1) if nr[1] else 0, "tone": "good"},
+                      {"label": "Vuls scan", "value": round(100 * vu[0] / vu[1], 1) if vu[1] else 0, "tone": "warn"}]},
             {"title": "Backported fixes: version-string checks cry wolf", "unit": "%",
-             "bars": [{"label": "package scanners", "value": round(100 * sc_s2_fv / len(sc_s2), 1) if sc_s2 else 0,
+             "bars": [{"label": "Package scanners", "value": round(100 * sc_s2_fv / len(sc_s2), 1) if sc_s2 else 0,
                        "tone": "good"},
                       {"label": "SSH banner check", "value": round(100 * banner_s2_fv / len(banner_s2), 1)
                        if banner_s2 else 0, "tone": "bad"}]},
-            {"title": "Cells by truth across all host states", "unit": "count",
-             "bars": [{"label": t, "value": sum(1 for r in cells if r["scanner"] == "trivy" and r["truth"] == t),
-                       "tone": tone} for t, tone in (("vulnerable", "bad"), ("fixed", "good"), ("mitigated", "warn"))]},
         ],
-        "detail": {"s3_trivy": trivy_s3, "s3_osv": osv_s3, "s3_unique_cells": len(s3_cells),
-                   "s3_unique_cells_all_said_fixed": len(s3_cells_all_fixed), "reachable": [len(reach_fixed), len(reach)],
-                   "no_check": [list(x) for x in nochk], "restart": {t: list(v) for t, v in rt.items()},
-                   "repeat_stable": [stable, len(groups)]},
     }
+    detail = {"s3_trivy": trivy_s3, "s3_osv": osv_s3, "s3_unique_cells": len(s3_cells),
+              "s3_unique_cells_all_said_fixed": len(s3_cells_all_fixed), "reachable": [len(reach_fixed), len(reach)],
+              "stale": [len(stale_fixed), len(stale)], "no_check": [list(x) for x in nochk],
+              "restart": {t: list(v) for t, v in rt.items()}, "repeat_stable": [stable, len(groups)],
+              "truth_stable": [tstable, len(tgroups)], "backport_scanners": [sc_s2_fv, len(sc_s2)],
+              "backport_banner": [banner_s2_fv, len(banner_s2)], "s5_flagged": [s5_flag, len(s5)],
+              "host_builds": len(runs), "verdicts": len(cells), "cells": len(unique_cells)}
+    (RES / "headline_numbers.json").write_text(json.dumps(detail, indent=1) + "\n")
     (RES / "summary.json").write_text(json.dumps(summary, indent=2) + "\n")
     print(headline)

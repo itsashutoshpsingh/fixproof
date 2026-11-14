@@ -39,21 +39,27 @@ def mitigation_checks(cases: dict, distro: str) -> dict[str, str]:
 
 
 class BuildIdIndex:
-    """build ID -> (package, version, file names) seen on disk in any lab host of a distro."""
+    """build ID (or sha256) -> (package, version, file names) seen on disk in any lab host of a distro."""
 
     def __init__(self):
         self.ids: dict[tuple[str, str], dict] = {}
 
     def add(self, distro: str, evidence: dict):
         for f in evidence.get("files", []):
-            if not f.get("build_id"):
-                continue
-            key = (distro, f["build_id"])
-            ent = self.ids.setdefault(key, {"package": f["package"], "version": f["version"], "names": set()})
-            ent["names"].update({posixpath.basename(f["path"]), posixpath.basename(f.get("real_path") or f["path"])})
+            # Alpine builds carry no GNU build ID, so the file hash is the fallback identity
+            for ident in (f.get("build_id"), f.get("sha256") and "sha256:" + f["sha256"]):
+                if not ident:
+                    continue
+                ent = self.ids.setdefault((distro, ident), {"package": f["package"], "version": f["version"],
+                                                            "names": set()})
+                ent["names"].update({posixpath.basename(f["path"]),
+                                     posixpath.basename(f.get("real_path") or f["path"])})
 
-    def get(self, distro: str, bid: str | None) -> dict | None:
-        return self.ids.get((distro, bid)) if bid else None
+    def get(self, distro: str, obj: dict) -> dict | None:
+        bid = obj.get("build_id")
+        if bid and (distro, bid) in self.ids:
+            return self.ids[(distro, bid)]
+        return self.ids.get((distro, "sha256:" + obj["sha256"])) if obj.get("sha256") else None
 
 
 def _kernel_tuple(release: str) -> tuple[int, ...]:
@@ -94,7 +100,7 @@ def evaluate(cve: str, case: dict, distro: str, ev: dict, index: BuildIdIndex) -
     running = []
     for proc in ev["processes"]:
         for obj in proc["objects"]:
-            ent = index.get(distro, obj.get("build_id"))
+            ent = index.get(distro, obj)
             if not ent or not (ent["names"] & files) or ent["package"] not in fixed:
                 continue
             if compare(pm, ent["version"], fixed[ent["package"]]) < 0:

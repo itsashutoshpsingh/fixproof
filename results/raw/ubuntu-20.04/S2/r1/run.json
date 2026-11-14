@@ -1,0 +1,58 @@
+{
+ "distro": "ubuntu-20.04",
+ "state": "S2",
+ "repeat": 1,
+ "image": "fixproof/ubuntu-20.04:s0",
+ "started": 1794668149.0600054,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 2.1
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2004-S2-r1.tar\"\nStarting filesystem walk for root: \nEnd status: 1422 dirs visited, 10552 inodes visited, 1 Extract calls, 11.603922ms elapsed, 11.604239ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.616662ms elapsed, 1.616744ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 730.249\u00b5s elapsed, 730.393\u00b5s wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 9.6
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu20.04\t206 installed\n\nWarning: [Extended support available until 2030-04-01. Check the vendor site. Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.9
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-20.04:s0",
+   "rc": 0,
+   "t": 1794668149.22,
+   "output": ""
+  },
+  {
+   "step": "upgrade",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668169.92,
+   "output": "\nSetting up logsave (1.45.5-2ubuntu1.2) ...\nSetting up libsasl2-2:amd64 (2.1.27+dfsg-2ubuntu0.1) ...\nSetting up libroken18-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up lsof (4.93.2+dfsg-1ubuntu0.20.04.1) ...\nSetting up libfdisk1:amd64 (2.34-0.1ubuntu9.6) ...\nSetting up mount (2.34-0.1ubuntu9.6) ...\nSetting up libperl5.30:amd64 (5.30.0-9ubuntu0.5) ...\nSetting up libx11-6:amd64 (2:1.6.9-2ubuntu1.6) ...\nSetting up libkrb5-3:amd64 (1.17-6ubuntu4.11) ...\nSetting up libtiff5:amd64 (4.1.0+git191117-2ubuntu0.20.04.14) ...\nSetting up libjson-c4:amd64 (0.13.1+dfsg-7ubuntu0.3) ...\nSetting up libbinutils:amd64 (2.34-6ubuntu1.11) ...\nSetting up openssl (1.1.1f-1ubuntu2.24) ...\nSetting up libelf1:amd64 (0.176-1.1ubuntu0.1) ...\nSetting up libpolkit-gobject-1-0:amd64 (0.105-26ubuntu1.3) ...\nSetting up libprocps8:amd64 (2:3.3.16-1ubuntu2.4) ...\nSetting up libkmod2:amd64 (27-1ubuntu2.1) ...\nSetting up libheimbase1-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up debian-goodies (0.84ubuntu0.1) ...\nSetting up libctf0:amd64 (2.34-6ubuntu1.11) ...\nSetting up libnginx-mod-mail (1.18.0-0ubuntu1.7) ...\nSetting up libpython3.8-minimal:amd64 (3.8.10-0ubuntu1~20.04.18) ...\nSetting up libxpm4:amd64 (1:3.5.12-1ubuntu0.20.04.2) ...\nSetting up libicu66:amd64 (66.1-2ubuntu2.1) ...\nSetting up libasn1-8-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up libnginx-mod-stream (1.18.0-0ubuntu1.7) ...\nSetting up e2fsprogs (1.45.5-2ubuntu1.2) ...\nSetting up libhcrypto4-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up fdisk (2.34-0.1ubuntu9.6) ...\nSetting up perl (5.30.0-9ubuntu0.5) ...\nSetting up libwind0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up libgd3:amd64 (2.2.5-5.2ubuntu2.4) ...\nSetting up libgssapi-krb5-2:amd64 (1.17-6ubuntu4.11) ...\nSetting up libssh-4:amd64 (0.9.3-2ubuntu2.5) ...\nSetting up python3.8-minimal (3.8.10-0ubuntu1~20.04.18) ...\nSetting up procps (2:3.3.16-1ubuntu2.4) ...\nSetting up libpolkit-agent-1-0:amd64 (0.105-26ubuntu1.3) ...\nSetting up libcryptsetup12:amd64 (2:2.2.2-3ubuntu2.5) ...\nSetting up libxml2:amd64 (2.9.10+dfsg-5ubuntu0.20.04.10) ...\nSetting up binutils-x86-64-linux-gnu (2.34-6ubuntu1.11) ...\nSetting up openssh-client (1:8.2p1-4ubuntu0.13) ...\nSetting up libhx509-5-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up libnginx-mod-http-image-filter (1.18.0-0ubuntu1.7) ...\nSetting up binutils (2.34-6ubuntu1.11) ...\nSetting up libxslt1.1:amd64 (1.1.34-4ubuntu0.20.04.3) ...\nSetting up libkrb5-26-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up openssh-sftp-server (1:8.2p1-4ubuntu0.13) ...\nSetting up needrestart (3.4-6ubuntu0.1) ...\nSetting up openssh-server (1:8.2p1-4ubuntu0.13) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of restart.\nSetting up libheimntlm0-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up libnginx-mod-http-xslt-filter (1.18.0-0ubuntu1.7) ...\nSetting up libgssapi3-heimdal:amd64 (7.7.0+dfsg-1ubuntu1.4) ...\nSetting up nginx-core (1.18.0-0ubuntu1.7) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of start.\nSetting up libldap-2.4-2:amd64 (2.4.49+dfsg-2ubuntu1.10) ...\nSetting up libcurl4:amd64 (7.68.0-1ubuntu2.25) ...\nSetting up curl (7.68.0-1ubuntu2.25) ...\nSetting up systemd (245.4-4ubuntu3.24) ...\nInstalling new version of config file /etc/dhcp/dhclient-enter-hooks.d/resolved ...\nInstalling new version of config file /etc/systemd/resolved.conf ...\nSetting up systemd-timesyncd (245.4-4ubuntu3.24) ...\nSetting up systemd-sysv (245.4-4ubuntu3.24) ...\nSetting up libpam-systemd:amd64 (245.4-4ubuntu3.24) ...\nSetting up policykit-1 (0.105-26ubuntu1.3) ...\nProcessing triggers for libc-bin (2.31-0ubuntu9.18) ...\n\nFailed to retrieve available kernel versions.\n\nFailed to check for processor microcode upgrades.\n\nNo services need to be restarted.\n\nNo containers need to be restarted.\n\nNo user sessions are running outdated binaries.\ndebconf: delaying package configuration, since apt-utils is not installed\n"
+  },
+  {
+   "step": "reboot",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668172.07,
+   "output": "fp-h-ubuntu-2004-S2-r1\n"
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668174.16,
+   "output": ""
+  }
+ ],
+ "finished": 1794668202.47848
+}

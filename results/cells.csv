@@ -1,0 +1,1456 @@
+distro,host_state,state,repeat,cve,scanner,truth,stale_only,stale_reachable,verdict,flagged_pkgs,via_other_package,basis,outcome
+alma-9,S0,S0,1,CVE-2023-38545,trivy,vulnerable,0,0,vulnerable,curl-minimal libcurl-minimal,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,1,CVE-2023-38545,osv-scanner,vulnerable,0,0,vulnerable,curl-minimal libcurl-minimal,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,1,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,1,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,glibc glibc-common glibc-minimal-langpack,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,1,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc glibc-common glibc-minimal-langpack,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,1,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,1,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,1,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,1,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,2,CVE-2023-38545,trivy,vulnerable,0,0,vulnerable,curl-minimal libcurl-minimal,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,2,CVE-2023-38545,osv-scanner,vulnerable,0,0,vulnerable,curl-minimal libcurl-minimal,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,2,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,2,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,glibc glibc-common glibc-minimal-langpack,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,2,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc glibc-common glibc-minimal-langpack,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,2,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,2,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,2,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,2,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,3,CVE-2023-38545,trivy,vulnerable,0,0,vulnerable,curl-minimal libcurl-minimal,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,3,CVE-2023-38545,osv-scanner,vulnerable,0,0,vulnerable,curl-minimal libcurl-minimal,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,3,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+alma-9,S0,S0,3,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,glibc glibc-common glibc-minimal-langpack,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,3,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc glibc-common glibc-minimal-langpack,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,3,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+alma-9,S0,S0,3,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,3,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S0,S0,3,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-16.el9_2 < 1:3.0.7-25.el9_3,correct
+alma-9,S3,S3,1,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,1,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,1,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,1,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),false_fixed
+alma-9,S3,S3,1,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),false_fixed
+alma-9,S3,S3,1,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),correct
+alma-9,S3,S3,1,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,1,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,1,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,2,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,2,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,2,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,2,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),false_fixed
+alma-9,S3,S3,2,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),false_fixed
+alma-9,S3,S3,2,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),correct
+alma-9,S3,S3,2,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,2,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,2,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,3,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,3,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,3,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,S3,S3,3,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),false_fixed
+alma-9,S3,S3,3,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),false_fixed
+alma-9,S3,S3,3,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),correct
+alma-9,S3,S3,3,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,3,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,S3,S3,3,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3; python3 maps libcrypto.so.3.0.7 1:3.0.7-16.el9_2 (deleted),correct
+alma-9,SU,S2,1,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,1,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,1,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,1,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,1,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,1,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,1,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,1,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,1,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,2,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,2,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,2,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,2,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,2,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,2,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,2,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,2,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,2,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,3,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,3,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,3,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,3,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,3,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,3,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alma-9,SU,S2,3,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,3,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl openssl-libs,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alma-9,SU,S2,3,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-24.el9 < 1:3.0.7-25.el9_3,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-46218,trivy,vulnerable,0,0,vulnerable,curl libcurl,0,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-46218,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-46218,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,libcrypto3 libssl3,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-5678,trivy,vulnerable,0,0,vulnerable,libcrypto3 libssl3,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-5678,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,1,CVE-2023-5678,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-46218,trivy,vulnerable,0,0,vulnerable,curl libcurl,0,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-46218,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-46218,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,libcrypto3 libssl3,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-5678,trivy,vulnerable,0,0,vulnerable,libcrypto3 libssl3,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-5678,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,2,CVE-2023-5678,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-46218,trivy,vulnerable,0,0,vulnerable,curl libcurl,0,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-46218,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-46218,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl 8.4.0-r0 < 8.5.0-r0,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,libcrypto3 libssl3,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r0; installed: libssl3 3.1.3-r0 < 3.1.4-r0,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-5678,trivy,vulnerable,0,0,vulnerable,libcrypto3 libssl3,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-5678,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S0,S0,3,CVE-2023-5678,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcrypto3 3.1.3-r0 < 3.1.4-r1; installed: libssl3 3.1.3-r0 < 3.1.4-r1,correct
+alpine-3.18-nginx,S3,S3,1,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,1,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,1,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,1,CVE-2023-5363,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,1,CVE-2023-5363,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,1,CVE-2023-5363,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),correct
+alpine-3.18-nginx,S3,S3,1,CVE-2023-5678,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,1,CVE-2023-5678,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,1,CVE-2023-5678,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),correct
+alpine-3.18-nginx,S3,S3,2,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,2,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,2,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,2,CVE-2023-5363,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,2,CVE-2023-5363,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,2,CVE-2023-5363,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),correct
+alpine-3.18-nginx,S3,S3,2,CVE-2023-5678,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,2,CVE-2023-5678,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,2,CVE-2023-5678,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),correct
+alpine-3.18-nginx,S3,S3,3,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,3,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,3,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,S3,S3,3,CVE-2023-5363,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,3,CVE-2023-5363,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,3,CVE-2023-5363,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),correct
+alpine-3.18-nginx,S3,S3,3,CVE-2023-5678,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,3,CVE-2023-5678,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),false_fixed
+alpine-3.18-nginx,S3,S3,3,CVE-2023-5678,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.1.3-r0 (deleted),correct
+alpine-3.18-nginx,SU,S1,1,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,1,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,1,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,1,CVE-2023-5363,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,1,CVE-2023-5363,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,1,CVE-2023-5363,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,1,CVE-2023-5678,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,1,CVE-2023-5678,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,1,CVE-2023-5678,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,2,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,2,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,2,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,2,CVE-2023-5363,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,2,CVE-2023-5363,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,2,CVE-2023-5363,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,2,CVE-2023-5678,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,2,CVE-2023-5678,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,2,CVE-2023-5678,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,3,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,3,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,3,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,3,CVE-2023-5363,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,3,CVE-2023-5363,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S1,3,CVE-2023-5363,fixproof-verify,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,3,CVE-2023-5678,trivy,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,3,CVE-2023-5678,osv-scanner,fixed,0,0,fixed,,0,,correct
+alpine-3.18-nginx,SU,S2,3,CVE-2023-5678,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-base,S0,S0,1,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,1,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,1,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,2,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,2,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,2,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,3,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,3,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S0,S0,3,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.36-9+deb12u1 < 2.36-9+deb12u3,correct
+debian-12-base,S3,S3,1,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),false_fixed
+debian-12-base,S3,S3,1,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),false_fixed
+debian-12-base,S3,S3,1,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),correct
+debian-12-base,S3,S3,2,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),false_fixed
+debian-12-base,S3,S3,2,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),false_fixed
+debian-12-base,S3,S3,2,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),correct
+debian-12-base,S3,S3,3,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),false_fixed
+debian-12-base,S3,S3,3,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),false_fixed
+debian-12-base,S3,S3,3,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,sleep maps ld-linux-x86-64.so.2 2.36-9+deb12u1 (deleted),correct
+debian-12-base,SU,S2,1,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,1,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,1,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,2,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,2,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,2,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,3,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,3,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-base,SU,S2,3,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S0,S0,1,CVE-2023-46218,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,1,CVE-2023-46218,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,1,CVE-2023-46218,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,1,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,1,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,1,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,1,CVE-2023-6246,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,1,CVE-2023-6246,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,1,CVE-2023-6246,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,2,CVE-2023-46218,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,2,CVE-2023-46218,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,2,CVE-2023-46218,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,2,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,2,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,2,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,2,CVE-2023-6246,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,2,CVE-2023-6246,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,2,CVE-2023-6246,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,3,CVE-2023-46218,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,3,CVE-2023-46218,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,3,CVE-2023-46218,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.88.1-10+deb12u4 < 7.88.1-10+deb12u5,correct
+debian-12-nginx,S0,S0,3,CVE-2023-5363,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,3,CVE-2023-5363,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,3,CVE-2023-5363,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.11-1~deb12u1 < 3.0.11-1~deb12u2,correct
+debian-12-nginx,S0,S0,3,CVE-2023-6246,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,3,CVE-2023-6246,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S0,S0,3,CVE-2023-6246,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.36-9+deb12u3 < 2.36-9+deb12u4,correct
+debian-12-nginx,S3,S3,1,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,1,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,1,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,1,CVE-2023-5363,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),false_fixed
+debian-12-nginx,S3,S3,1,CVE-2023-5363,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),false_fixed
+debian-12-nginx,S3,S3,1,CVE-2023-5363,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),correct
+debian-12-nginx,S3,S3,1,CVE-2023-6246,trivy,vulnerable,1,0,fixed,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),false_fixed
+debian-12-nginx,S3,S3,1,CVE-2023-6246,osv-scanner,vulnerable,1,0,fixed,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),false_fixed
+debian-12-nginx,S3,S3,1,CVE-2023-6246,fixproof-verify,vulnerable,1,0,vulnerable,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),correct
+debian-12-nginx,S3,S3,2,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,2,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,2,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,2,CVE-2023-5363,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),false_fixed
+debian-12-nginx,S3,S3,2,CVE-2023-5363,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),false_fixed
+debian-12-nginx,S3,S3,2,CVE-2023-5363,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),correct
+debian-12-nginx,S3,S3,2,CVE-2023-6246,trivy,vulnerable,1,0,fixed,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),false_fixed
+debian-12-nginx,S3,S3,2,CVE-2023-6246,osv-scanner,vulnerable,1,0,fixed,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),false_fixed
+debian-12-nginx,S3,S3,2,CVE-2023-6246,fixproof-verify,vulnerable,1,0,vulnerable,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),correct
+debian-12-nginx,S3,S3,3,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,3,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,3,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,S3,S3,3,CVE-2023-5363,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),false_fixed
+debian-12-nginx,S3,S3,3,CVE-2023-5363,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),false_fixed
+debian-12-nginx,S3,S3,3,CVE-2023-5363,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.11-1~deb12u1 (deleted),correct
+debian-12-nginx,S3,S3,3,CVE-2023-6246,trivy,vulnerable,1,0,fixed,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),false_fixed
+debian-12-nginx,S3,S3,3,CVE-2023-6246,osv-scanner,vulnerable,1,0,fixed,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),false_fixed
+debian-12-nginx,S3,S3,3,CVE-2023-6246,fixproof-verify,vulnerable,1,0,vulnerable,,0,nginx maps libc.so.6 2.36-9+deb12u3 (deleted); sleep maps libc.so.6 2.36-9+deb12u3 (deleted),correct
+debian-12-nginx,SU,S2,1,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-5363,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-5363,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-5363,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-6246,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-6246,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,1,CVE-2023-6246,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-5363,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-5363,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-5363,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-6246,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-6246,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,2,CVE-2023-6246,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-46218,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-46218,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-46218,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-5363,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-5363,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-5363,fixproof-verify,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-6246,trivy,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-6246,osv-scanner,fixed,0,0,fixed,,0,,correct
+debian-12-nginx,SU,S2,3,CVE-2023-6246,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,S0,S0,1,CVE-2023-2650,trivy,vulnerable,0,0,no_check,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,no_check
+rocky-9,S0,S0,1,CVE-2023-2650,osv-scanner,vulnerable,0,0,no_check,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,no_check
+rocky-9,S0,S0,1,CVE-2023-2650,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,correct
+rocky-9,S0,S0,1,CVE-2023-38545,trivy,vulnerable,0,0,no_check,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,no_check
+rocky-9,S0,S0,1,CVE-2023-38545,osv-scanner,vulnerable,0,0,no_check,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,no_check
+rocky-9,S0,S0,1,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+rocky-9,S0,S0,1,CVE-2023-4911,trivy,vulnerable,0,0,no_check,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,no_check
+rocky-9,S0,S0,1,CVE-2023-4911,osv-scanner,vulnerable,0,0,no_check,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,no_check
+rocky-9,S0,S0,1,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+rocky-9,S0,S0,2,CVE-2023-2650,trivy,vulnerable,0,0,no_check,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,no_check
+rocky-9,S0,S0,2,CVE-2023-2650,osv-scanner,vulnerable,0,0,no_check,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,no_check
+rocky-9,S0,S0,2,CVE-2023-2650,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,correct
+rocky-9,S0,S0,2,CVE-2023-38545,trivy,vulnerable,0,0,no_check,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,no_check
+rocky-9,S0,S0,2,CVE-2023-38545,osv-scanner,vulnerable,0,0,no_check,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,no_check
+rocky-9,S0,S0,2,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+rocky-9,S0,S0,2,CVE-2023-4911,trivy,vulnerable,0,0,no_check,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,no_check
+rocky-9,S0,S0,2,CVE-2023-4911,osv-scanner,vulnerable,0,0,no_check,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,no_check
+rocky-9,S0,S0,2,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+rocky-9,S0,S0,3,CVE-2023-2650,trivy,vulnerable,0,0,no_check,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,no_check
+rocky-9,S0,S0,3,CVE-2023-2650,osv-scanner,vulnerable,0,0,no_check,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,no_check
+rocky-9,S0,S0,3,CVE-2023-2650,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssl-libs 1:3.0.7-6.el9_2 < 1:3.0.7-16.el9_2,correct
+rocky-9,S0,S0,3,CVE-2023-38545,trivy,vulnerable,0,0,no_check,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,no_check
+rocky-9,S0,S0,3,CVE-2023-38545,osv-scanner,vulnerable,0,0,no_check,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,no_check
+rocky-9,S0,S0,3,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl-minimal 7.76.1-23.el9_2.1 < 7.76.1-23.el9_2.4,correct
+rocky-9,S0,S0,3,CVE-2023-4911,trivy,vulnerable,0,0,no_check,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,no_check
+rocky-9,S0,S0,3,CVE-2023-4911,osv-scanner,vulnerable,0,0,no_check,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,no_check
+rocky-9,S0,S0,3,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: glibc 2.34-60.el9 < 2.34-60.el9_2.7,correct
+rocky-9,S3,S3,1,CVE-2023-2650,trivy,vulnerable,1,1,no_check,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),no_check
+rocky-9,S3,S3,1,CVE-2023-2650,osv-scanner,vulnerable,1,1,no_check,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),no_check
+rocky-9,S3,S3,1,CVE-2023-2650,fixproof-verify,vulnerable,1,1,vulnerable,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),correct
+rocky-9,S3,S3,1,CVE-2023-38545,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,S3,S3,1,CVE-2023-38545,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,S3,S3,1,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,S3,S3,1,CVE-2023-4911,trivy,vulnerable,1,0,no_check,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),no_check
+rocky-9,S3,S3,1,CVE-2023-4911,osv-scanner,vulnerable,1,0,no_check,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),no_check
+rocky-9,S3,S3,1,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),correct
+rocky-9,S3,S3,2,CVE-2023-2650,trivy,vulnerable,1,1,no_check,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),no_check
+rocky-9,S3,S3,2,CVE-2023-2650,osv-scanner,vulnerable,1,1,no_check,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),no_check
+rocky-9,S3,S3,2,CVE-2023-2650,fixproof-verify,vulnerable,1,1,vulnerable,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),correct
+rocky-9,S3,S3,2,CVE-2023-38545,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,S3,S3,2,CVE-2023-38545,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,S3,S3,2,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,S3,S3,2,CVE-2023-4911,trivy,vulnerable,1,0,no_check,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),no_check
+rocky-9,S3,S3,2,CVE-2023-4911,osv-scanner,vulnerable,1,0,no_check,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),no_check
+rocky-9,S3,S3,2,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),correct
+rocky-9,S3,S3,3,CVE-2023-2650,trivy,vulnerable,1,1,no_check,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),no_check
+rocky-9,S3,S3,3,CVE-2023-2650,osv-scanner,vulnerable,1,1,no_check,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),no_check
+rocky-9,S3,S3,3,CVE-2023-2650,fixproof-verify,vulnerable,1,1,vulnerable,,0,python3 maps libcrypto.so.3.0.7 1:3.0.7-6.el9_2 (deleted),correct
+rocky-9,S3,S3,3,CVE-2023-38545,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,S3,S3,3,CVE-2023-38545,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,S3,S3,3,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,S3,S3,3,CVE-2023-4911,trivy,vulnerable,1,0,no_check,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),no_check
+rocky-9,S3,S3,3,CVE-2023-4911,osv-scanner,vulnerable,1,0,no_check,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),no_check
+rocky-9,S3,S3,3,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,python3 maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted); sleep maps ld-linux-x86-64.so.2 2.34-60.el9 (deleted),correct
+rocky-9,SU,S2,1,CVE-2023-2650,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,1,CVE-2023-2650,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,1,CVE-2023-2650,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,1,CVE-2023-38545,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,1,CVE-2023-38545,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,1,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,1,CVE-2023-4911,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,1,CVE-2023-4911,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,1,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,2,CVE-2023-2650,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,2,CVE-2023-2650,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,2,CVE-2023-2650,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,2,CVE-2023-38545,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,2,CVE-2023-38545,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,2,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,2,CVE-2023-4911,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,2,CVE-2023-4911,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,2,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,3,CVE-2023-2650,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,3,CVE-2023-2650,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,3,CVE-2023-2650,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,3,CVE-2023-38545,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,3,CVE-2023-38545,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,3,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+rocky-9,SU,S2,3,CVE-2023-4911,trivy,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,3,CVE-2023-4911,osv-scanner,fixed,0,0,no_check,,0,,no_check
+rocky-9,SU,S2,3,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S0,S0,1,CVE-2021-3156,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,1,CVE-2021-3156,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,1,CVE-2021-3156,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,1,CVE-2021-4034,trivy,vulnerable,0,0,vulnerable,libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,1,CVE-2021-4034,osv-scanner,vulnerable,0,0,vulnerable,policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,1,CVE-2021-4034,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,1,CVE-2022-0778,trivy,vulnerable,0,0,vulnerable,libssl1.1 openssl,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,1,CVE-2022-0778,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,1,CVE-2022-0778,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,1,CVE-2022-1271,trivy,vulnerable,0,0,vulnerable,gzip liblzma5 xz-utils,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,1,CVE-2022-1271,osv-scanner,vulnerable,0,0,vulnerable,gzip xz-utils,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,1,CVE-2022-1271,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-0286,trivy,vulnerable,0,0,vulnerable,libssl1.1 openssl,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-0286,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-0286,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-22809,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-22809,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-22809,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,1,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,1,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,1,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,1,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,1,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,1,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,1,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,2,CVE-2021-3156,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,2,CVE-2021-3156,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,2,CVE-2021-3156,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,2,CVE-2021-4034,trivy,vulnerable,0,0,vulnerable,libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,2,CVE-2021-4034,osv-scanner,vulnerable,0,0,vulnerable,policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,2,CVE-2021-4034,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,2,CVE-2022-0778,trivy,vulnerable,0,0,vulnerable,libssl1.1 openssl,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,2,CVE-2022-0778,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,2,CVE-2022-0778,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,2,CVE-2022-1271,trivy,vulnerable,0,0,vulnerable,gzip liblzma5 xz-utils,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,2,CVE-2022-1271,osv-scanner,vulnerable,0,0,vulnerable,gzip xz-utils,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,2,CVE-2022-1271,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-0286,trivy,vulnerable,0,0,vulnerable,libssl1.1 openssl,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-0286,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-0286,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-22809,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-22809,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-22809,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,2,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,2,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,2,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,2,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,2,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,2,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,2,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,3,CVE-2021-3156,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,3,CVE-2021-3156,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,3,CVE-2021-3156,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.2,correct
+ubuntu-20.04,S0,S0,3,CVE-2021-4034,trivy,vulnerable,0,0,vulnerable,libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,3,CVE-2021-4034,osv-scanner,vulnerable,0,0,vulnerable,policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,3,CVE-2021-4034,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2,correct
+ubuntu-20.04,S0,S0,3,CVE-2022-0778,trivy,vulnerable,0,0,vulnerable,libssl1.1 openssl,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,3,CVE-2022-0778,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,3,CVE-2022-0778,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.12,correct
+ubuntu-20.04,S0,S0,3,CVE-2022-1271,trivy,vulnerable,0,0,vulnerable,gzip liblzma5 xz-utils,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,3,CVE-2022-1271,osv-scanner,vulnerable,0,0,vulnerable,gzip xz-utils,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,3,CVE-2022-1271,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: xz-utils 5.2.4-1 < 5.2.4-1ubuntu1.1; installed: gzip 1.10-0ubuntu4 < 1.10-0ubuntu4.1,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-0286,trivy,vulnerable,0,0,vulnerable,libssl1.1 openssl,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-0286,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-0286,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl1.1 1.1.1f-1ubuntu2 < 1.1.1f-1ubuntu2.17,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-22809,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-22809,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-22809,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,3,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S0,S0,3,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,3,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,3,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15,correct
+ubuntu-20.04,S0,S0,3,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,3,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S0,S0,3,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.68.0-1ubuntu2 < 7.68.0-1ubuntu2.23,correct
+ubuntu-20.04,S2,S2,1,CVE-2021-3156,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2021-3156,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2021-3156,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2021-4034,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2021-4034,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2021-4034,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2022-0778,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2022-0778,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2022-0778,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2022-1271,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2022-1271,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2022-1271,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-0286,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-0286,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-0286,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-48795,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-48795,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-48795,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2023-48795,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-20.04,S2,S2,1,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,1,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2021-3156,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2021-3156,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2021-3156,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2021-4034,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2021-4034,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2021-4034,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2022-0778,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2022-0778,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2022-0778,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2022-1271,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2022-1271,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2022-1271,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-0286,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-0286,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-0286,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-48795,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-48795,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-48795,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2023-48795,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-20.04,S2,S2,2,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,2,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2021-3156,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2021-3156,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2021-3156,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2021-4034,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2021-4034,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2021-4034,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2022-0778,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2022-0778,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2022-0778,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2022-1271,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2022-1271,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2022-1271,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-0286,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-0286,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-0286,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-48795,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-48795,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-48795,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2023-48795,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-20.04,S2,S2,3,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S2,S2,3,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2021-3156,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2021-3156,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2021-3156,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),correct
+ubuntu-20.04,S3,S3,1,CVE-2021-4034,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2021-4034,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2021-4034,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2022-0778,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2022-0778,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2022-0778,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),correct
+ubuntu-20.04,S3,S3,1,CVE-2022-1271,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2022-1271,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2022-1271,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),correct
+ubuntu-20.04,S3,S3,1,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),correct
+ubuntu-20.04,S3,S3,1,CVE-2023-48795,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.2p1-4 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2023-48795,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.2p1-4 (deleted),false_fixed
+ubuntu-20.04,S3,S3,1,CVE-2023-48795,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S3,S3,1,CVE-2023-48795,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S3,S3,1,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,1,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2021-3156,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2021-3156,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2021-3156,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),correct
+ubuntu-20.04,S3,S3,2,CVE-2021-4034,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2021-4034,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2021-4034,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2022-0778,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2022-0778,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2022-0778,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),correct
+ubuntu-20.04,S3,S3,2,CVE-2022-1271,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2022-1271,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2022-1271,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),correct
+ubuntu-20.04,S3,S3,2,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),correct
+ubuntu-20.04,S3,S3,2,CVE-2023-48795,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.2p1-4 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2023-48795,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.2p1-4 (deleted),false_fixed
+ubuntu-20.04,S3,S3,2,CVE-2023-48795,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S3,S3,2,CVE-2023-48795,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S3,S3,2,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,2,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2021-3156,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2021-3156,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2021-3156,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),correct
+ubuntu-20.04,S3,S3,3,CVE-2021-4034,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2021-4034,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2021-4034,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2022-0778,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2022-0778,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2022-0778,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),correct
+ubuntu-20.04,S3,S3,3,CVE-2022-1271,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2022-1271,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2022-1271,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted); sshd maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (deleted),correct
+ubuntu-20.04,S3,S3,3,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted),correct
+ubuntu-20.04,S3,S3,3,CVE-2023-48795,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.2p1-4 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2023-48795,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.2p1-4 (deleted),false_fixed
+ubuntu-20.04,S3,S3,3,CVE-2023-48795,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S3,S3,3,CVE-2023-48795,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S3,S3,3,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S3,S3,3,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-20.04,S5,S5,1,CVE-2021-4034,trivy,mitigated,0,0,vulnerable,libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2021-4034,osv-scanner,mitigated,0,0,vulnerable,policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2021-4034,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2023-22809,trivy,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2023-22809,osv-scanner,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2023-22809,fixproof-verify,mitigated,0,0,vulnerable,,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,1,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,1,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,1,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2021-4034,trivy,mitigated,0,0,vulnerable,libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2021-4034,osv-scanner,mitigated,0,0,vulnerable,policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2021-4034,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2023-22809,trivy,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2023-22809,osv-scanner,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2023-22809,fixproof-verify,mitigated,0,0,vulnerable,,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,2,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,2,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,2,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2021-4034,trivy,mitigated,0,0,vulnerable,libpolkit-agent-1-0 libpolkit-gobject-1-0 policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2021-4034,osv-scanner,mitigated,0,0,vulnerable,policykit-1,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2021-4034,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: policykit-1 0.105-26ubuntu1 < 0.105-26ubuntu1.2; mitigation in force: Remove the setuid bit: chmod 0755 /usr/bin/pkexec,flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2023-22809,trivy,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2023-22809,osv-scanner,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2023-22809,fixproof-verify,mitigated,0,0,vulnerable,,0,"installed: sudo 1.8.31-1ubuntu1 < 1.8.31-1ubuntu1.4; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,3,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S5,S5,3,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S5,S5,3,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.31-0ubuntu9 < 2.31-0ubuntu9.15; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-20.04,S6,S6,1,CVE-2024-1086,trivy,fixed,0,0,vulnerable,linux-modules-5.4.0-26-generic,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,false_vulnerable
+ubuntu-20.04,S6,S6,1,CVE-2024-1086,osv-scanner,fixed,0,0,no_check,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,no_check
+ubuntu-20.04,S6,S6,1,CVE-2024-1086,fixproof-verify,fixed,0,0,fixed,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,correct
+ubuntu-20.04,S6,S6,2,CVE-2024-1086,trivy,fixed,0,0,vulnerable,linux-modules-5.4.0-26-generic,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,false_vulnerable
+ubuntu-20.04,S6,S6,2,CVE-2024-1086,osv-scanner,fixed,0,0,no_check,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,no_check
+ubuntu-20.04,S6,S6,2,CVE-2024-1086,fixproof-verify,fixed,0,0,fixed,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,correct
+ubuntu-20.04,S6,S6,3,CVE-2024-1086,trivy,fixed,0,0,vulnerable,linux-modules-5.4.0-26-generic,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,false_vulnerable
+ubuntu-20.04,S6,S6,3,CVE-2024-1086,osv-scanner,fixed,0,0,no_check,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,no_check
+ubuntu-20.04,S6,S6,3,CVE-2024-1086,fixproof-verify,fixed,0,0,fixed,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.4.0-26-generic 5.4.0-26.30,correct
+ubuntu-20.04,S7,S7,1,CVE-2021-3156,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,1,CVE-2021-3156,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,1,CVE-2021-3156,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,1,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,1,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,1,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,2,CVE-2021-3156,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,2,CVE-2021-3156,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,2,CVE-2021-3156,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,2,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,2,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,2,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,3,CVE-2021-3156,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,3,CVE-2021-3156,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,3,CVE-2021-3156,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,3,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,3,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,3,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-20.04,S7,S7,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S7,S7,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10,correct
+ubuntu-20.04,S8,S8,1,CVE-2021-3156,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,1,CVE-2021-3156,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,1,CVE-2021-3156,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,correct
+ubuntu-20.04,S8,S8,1,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,1,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,1,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,correct
+ubuntu-20.04,S8,S8,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,1,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,2,CVE-2021-3156,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,2,CVE-2021-3156,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,2,CVE-2021-3156,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,correct
+ubuntu-20.04,S8,S8,2,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,2,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,2,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,correct
+ubuntu-20.04,S8,S8,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,2,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,3,CVE-2021-3156,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,3,CVE-2021-3156,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,3,CVE-2021-3156,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,correct
+ubuntu-20.04,S8,S8,3,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,3,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,false_fixed
+ubuntu-20.04,S8,S8,3,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.8.31-1ubuntu1 (deleted); sudo maps sudoers.so 1.8.31-1ubuntu1 (deleted); package not installed,correct
+ubuntu-20.04,S8,S8,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S8,S8,3,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.2p1-4 < 1:8.2p1-4ubuntu0.10; sshd maps sshd 1:8.2p1-4 (deleted),correct
+ubuntu-20.04,S9,S9,1,CVE-2022-0778,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,1,CVE-2022-0778,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,1,CVE-2022-0778,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),correct
+ubuntu-20.04,S9,S9,1,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,1,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,1,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),correct
+ubuntu-20.04,S9,S9,2,CVE-2022-0778,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,2,CVE-2022-0778,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,2,CVE-2022-0778,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),correct
+ubuntu-20.04,S9,S9,2,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,2,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,2,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),correct
+ubuntu-20.04,S9,S9,3,CVE-2022-0778,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,3,CVE-2022-0778,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,3,CVE-2022-0778,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),correct
+ubuntu-20.04,S9,S9,3,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,3,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),false_fixed
+ubuntu-20.04,S9,S9,3,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.1.1 1.1.1f-1ubuntu2 (copy outside the package),correct
+ubuntu-22.04,S0,S0,1,CVE-2023-0286,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-0286,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-0286,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-22809,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-22809,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-22809,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-38545,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-38545,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,1,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6119,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6119,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6119,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6387,trivy,vulnerable,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6387,osv-scanner,vulnerable,0,0,vulnerable,openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6387,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-6387,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,1,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,1,CVE-2025-32462,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,1,CVE-2025-32462,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,1,CVE-2025-32462,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-0286,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-0286,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-0286,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-22809,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-22809,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-22809,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-38545,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-38545,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,2,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6119,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6119,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6119,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6387,trivy,vulnerable,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6387,osv-scanner,vulnerable,0,0,vulnerable,openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6387,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-6387,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,2,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,2,CVE-2025-32462,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2025-32462,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,2,CVE-2025-32462,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-0286,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-0286,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-0286,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.8,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-22809,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-22809,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-22809,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-38545,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-38545,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-38545,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.14,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-4911,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-4911,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,3,CVE-2023-4911,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.4,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6119,trivy,vulnerable,0,0,vulnerable,libssl3 openssl,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6119,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6119,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3 3.0.2-0ubuntu1 < 3.0.2-0ubuntu1.18,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6387,trivy,vulnerable,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6387,osv-scanner,vulnerable,0,0,vulnerable,openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6387,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-6387,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,3,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4 7.81.0-1 < 7.81.0-1ubuntu1.17,correct
+ubuntu-22.04,S0,S0,3,CVE-2025-32462,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2025-32462,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S0,S0,3,CVE-2025-32462,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.5,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-0286,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-0286,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-0286,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-48795,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-48795,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-48795,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-48795,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-22.04,S2,S2,1,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6119,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6119,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6119,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6387,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6387,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-6387,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-22.04,S2,S2,1,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,1,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-0286,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-0286,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-0286,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-48795,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-48795,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-48795,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-48795,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-22.04,S2,S2,2,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6119,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6119,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6119,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6387,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6387,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-6387,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-22.04,S2,S2,2,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,2,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-0286,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-0286,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-0286,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-48795,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-48795,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-48795,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-48795,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-22.04,S2,S2,3,CVE-2023-4911,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-4911,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2023-4911,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6119,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6119,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6119,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6387,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6387,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-6387,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-22.04,S2,S2,3,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S2,S2,3,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2023-48795,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-48795,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-48795,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2023-48795,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2024-6387,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2024-6387,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2024-6387,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2024-6387,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,1,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,1,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,1,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2023-48795,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-48795,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-48795,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2023-48795,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2024-6387,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2024-6387,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2024-6387,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2024-6387,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,2,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,2,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,2,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2023-38545,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2023-38545,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2023-38545,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2023-48795,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-48795,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-48795,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2023-48795,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2023-4911,trivy,vulnerable,1,0,fixed,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-4911,osv-scanner,vulnerable,1,0,fixed,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2023-4911,fixproof-verify,vulnerable,1,0,vulnerable,,0,nginx maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sleep maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sshd maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted); sudo maps ld-linux-x86-64.so.2 2.35-0ubuntu3 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted); sshd maps libcrypto.so.3 3.0.2-0ubuntu1 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2024-6387,trivy,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2024-6387,osv-scanner,vulnerable,1,0,fixed,,0,sshd maps sshd 1:8.9p1-3 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2024-6387,fixproof-verify,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2024-6387,ssh-banner,vulnerable,1,0,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S3,S3,3,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-22.04,S3,S3,3,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),false_fixed
+ubuntu-22.04,S3,S3,3,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted),correct
+ubuntu-22.04,S5,S5,1,CVE-2023-22809,trivy,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2023-22809,osv-scanner,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2023-22809,fixproof-verify,mitigated,0,0,vulnerable,,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,1,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,1,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2024-6387,trivy,mitigated,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2024-6387,osv-scanner,mitigated,0,0,vulnerable,openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2024-6387,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,1,CVE-2024-6387,ssh-banner,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2023-22809,trivy,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2023-22809,osv-scanner,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2023-22809,fixproof-verify,mitigated,0,0,vulnerable,,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,2,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,2,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2024-6387,trivy,mitigated,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2024-6387,osv-scanner,mitigated,0,0,vulnerable,openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2024-6387,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,2,CVE-2024-6387,ssh-banner,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2023-22809,trivy,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2023-22809,osv-scanner,mitigated,0,0,vulnerable,sudo,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2023-22809,fixproof-verify,mitigated,0,0,vulnerable,,0,"installed: sudo 1.9.9-1ubuntu2 < 1.9.9-1ubuntu2.2; mitigation in force: Defaults!sudoedit env_delete+=""SUDO_EDITOR VISUAL EDITOR""",flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,3,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S5,S5,3,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.35-0ubuntu3 < 2.35-0ubuntu3.7; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2024-6387,trivy,mitigated,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2024-6387,osv-scanner,mitigated,0,0,vulnerable,openssh,1,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2024-6387,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S5,S5,3,CVE-2024-6387,ssh-banner,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:8.9p1-3 < 1:8.9p1-3ubuntu0.10; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-22.04,S6,S6,1,CVE-2024-1086,trivy,fixed,0,0,vulnerable,linux-modules-5.15.0-25-generic,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,false_vulnerable
+ubuntu-22.04,S6,S6,1,CVE-2024-1086,osv-scanner,fixed,0,0,no_check,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,no_check
+ubuntu-22.04,S6,S6,1,CVE-2024-1086,fixproof-verify,fixed,0,0,fixed,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,correct
+ubuntu-22.04,S6,S6,2,CVE-2024-1086,trivy,fixed,0,0,vulnerable,linux-modules-5.15.0-25-generic,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,false_vulnerable
+ubuntu-22.04,S6,S6,2,CVE-2024-1086,osv-scanner,fixed,0,0,no_check,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,no_check
+ubuntu-22.04,S6,S6,2,CVE-2024-1086,fixproof-verify,fixed,0,0,fixed,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,correct
+ubuntu-22.04,S6,S6,3,CVE-2024-1086,trivy,fixed,0,0,vulnerable,linux-modules-5.15.0-25-generic,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,false_vulnerable
+ubuntu-22.04,S6,S6,3,CVE-2024-1086,osv-scanner,fixed,0,0,no_check,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,no_check
+ubuntu-22.04,S6,S6,3,CVE-2024-1086,fixproof-verify,fixed,0,0,fixed,,0,running kernel 6.18.44-fc-v470 has the fix; old kernel package on disk only: linux-image-5.15.0-25-generic 5.15.0-25.25,correct
+ubuntu-22.04,S7,S7,1,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,1,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,1,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,1,CVE-2024-6387,trivy,fixed,0,0,vulnerable,openssh-client openssh-sftp-server,1,package not installed,false_vulnerable
+ubuntu-22.04,S7,S7,1,CVE-2024-6387,osv-scanner,fixed,0,0,vulnerable,openssh,1,package not installed,false_vulnerable
+ubuntu-22.04,S7,S7,1,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,1,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,1,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,1,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,2,CVE-2024-6387,trivy,fixed,0,0,vulnerable,openssh-client openssh-sftp-server,1,package not installed,false_vulnerable
+ubuntu-22.04,S7,S7,2,CVE-2024-6387,osv-scanner,fixed,0,0,vulnerable,openssh,1,package not installed,false_vulnerable
+ubuntu-22.04,S7,S7,2,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,2,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2023-22809,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2023-22809,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2023-22809,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5,correct
+ubuntu-22.04,S7,S7,3,CVE-2024-6387,trivy,fixed,0,0,vulnerable,openssh-client openssh-sftp-server,1,package not installed,false_vulnerable
+ubuntu-22.04,S7,S7,3,CVE-2024-6387,osv-scanner,fixed,0,0,vulnerable,openssh,1,package not installed,false_vulnerable
+ubuntu-22.04,S7,S7,3,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S7,S7,3,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-22.04,S8,S8,1,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,1,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,1,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,1,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,1,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,1,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,1,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,1,CVE-2024-6387,trivy,vulnerable,1,1,vulnerable,openssh-client openssh-sftp-server,1,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,1,CVE-2024-6387,osv-scanner,vulnerable,1,1,vulnerable,openssh,1,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,1,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,1,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,1,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,1,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,1,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,2,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,2,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,2,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,2,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,2,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,2,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,2,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,2,CVE-2024-6387,trivy,vulnerable,1,1,vulnerable,openssh-client openssh-sftp-server,1,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,2,CVE-2024-6387,osv-scanner,vulnerable,1,1,vulnerable,openssh,1,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,2,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,2,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,2,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,2,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,2,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,3,CVE-2023-22809,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,3,CVE-2023-22809,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,3,CVE-2023-22809,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,3,CVE-2023-48795,trivy,vulnerable,0,0,vulnerable,libssh-4 openssh-client openssh-sftp-server,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,3,CVE-2023-48795,osv-scanner,vulnerable,0,0,vulnerable,libssh openssh,1,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,3,CVE-2023-48795,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,3,CVE-2023-48795,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-client 1:8.9p1-3 < 1:8.9p1-3ubuntu0.5; sshd maps sshd 1:8.9p1-3 (deleted),correct
+ubuntu-22.04,S8,S8,3,CVE-2024-6387,trivy,vulnerable,1,1,vulnerable,openssh-client openssh-sftp-server,1,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,3,CVE-2024-6387,osv-scanner,vulnerable,1,1,vulnerable,openssh,1,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,3,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,3,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:8.9p1-3 (deleted); package not installed,correct
+ubuntu-22.04,S8,S8,3,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,3,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,false_fixed
+ubuntu-22.04,S8,S8,3,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.9-1ubuntu2 (deleted); sudo maps sudoers.so 1.9.9-1ubuntu2 (deleted); package not installed,correct
+ubuntu-22.04,S9,S9,1,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,1,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,1,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),correct
+ubuntu-22.04,S9,S9,1,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,1,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,1,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),correct
+ubuntu-22.04,S9,S9,2,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,2,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,2,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),correct
+ubuntu-22.04,S9,S9,2,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,2,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,2,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),correct
+ubuntu-22.04,S9,S9,3,CVE-2023-0286,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,3,CVE-2023-0286,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,3,CVE-2023-0286,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),correct
+ubuntu-22.04,S9,S9,3,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,3,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),false_fixed
+ubuntu-22.04,S9,S9,3,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.2-0ubuntu1 (copy outside the package),correct
+ubuntu-24.04,S0,S0,1,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-5535,trivy,vulnerable,0,0,vulnerable,libssl3t64 openssl,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-5535,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-5535,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6119,trivy,vulnerable,0,0,vulnerable,libssl3t64 openssl,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6119,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6119,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6387,trivy,vulnerable,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6387,osv-scanner,vulnerable,0,0,vulnerable,openssh,1,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6387,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-6387,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4t64,0,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,1,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,1,CVE-2025-32462,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2025-32462,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2025-32462,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2025-32463,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2025-32463,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,1,CVE-2025-32463,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-5535,trivy,vulnerable,0,0,vulnerable,libssl3t64 openssl,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-5535,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-5535,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6119,trivy,vulnerable,0,0,vulnerable,libssl3t64 openssl,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6119,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6119,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6387,trivy,vulnerable,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6387,osv-scanner,vulnerable,0,0,vulnerable,openssh,1,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6387,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-6387,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4t64,0,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,2,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,2,CVE-2025-32462,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2025-32462,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2025-32462,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2025-32463,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2025-32463,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,2,CVE-2025-32463,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-2961,trivy,vulnerable,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-2961,osv-scanner,vulnerable,0,0,vulnerable,glibc,1,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-2961,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-5535,trivy,vulnerable,0,0,vulnerable,libssl3t64 openssl,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-5535,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-5535,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.2,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6119,trivy,vulnerable,0,0,vulnerable,libssl3t64 openssl,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6119,osv-scanner,vulnerable,0,0,vulnerable,openssl,1,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6119,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libssl3t64 3.0.13-0ubuntu3 < 3.0.13-0ubuntu3.4,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6387,trivy,vulnerable,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6387,osv-scanner,vulnerable,0,0,vulnerable,openssh,1,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6387,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-6387,ssh-banner,vulnerable,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-7264,trivy,vulnerable,0,0,vulnerable,curl libcurl4t64,0,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-7264,osv-scanner,vulnerable,0,0,vulnerable,curl,1,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,3,CVE-2024-7264,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: libcurl4t64 8.5.0-2ubuntu10 < 8.5.0-2ubuntu10.2,correct
+ubuntu-24.04,S0,S0,3,CVE-2025-32462,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2025-32462,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2025-32462,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2025-32463,trivy,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2025-32463,osv-scanner,vulnerable,0,0,vulnerable,sudo,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S0,S0,3,CVE-2025-32463,fixproof-verify,vulnerable,0,0,vulnerable,,0,installed: sudo 1.9.15p5-3ubuntu5 < 1.9.15p5-3ubuntu5.24.04.1,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-5535,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-5535,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-5535,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6119,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6119,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6119,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6387,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6387,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-6387,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-24.04,S2,S2,1,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2025-32463,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2025-32463,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,1,CVE-2025-32463,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-5535,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-5535,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-5535,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6119,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6119,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6119,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6387,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6387,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-6387,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-24.04,S2,S2,2,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2025-32463,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2025-32463,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,2,CVE-2025-32463,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-5535,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-5535,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-5535,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6119,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6119,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6119,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6387,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6387,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-6387,ssh-banner,fixed,0,0,vulnerable,,0,,false_vulnerable
+ubuntu-24.04,S2,S2,3,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2025-32463,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2025-32463,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S2,S2,3,CVE-2025-32463,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2024-5535,trivy,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2024-5535,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2024-5535,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),correct
+ubuntu-24.04,S3,S3,1,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),correct
+ubuntu-24.04,S3,S3,1,CVE-2024-6387,trivy,vulnerable,1,1,fixed,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2024-6387,osv-scanner,vulnerable,1,1,fixed,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),correct
+ubuntu-24.04,S3,S3,1,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),correct
+ubuntu-24.04,S3,S3,1,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,1,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),correct
+ubuntu-24.04,S3,S3,1,CVE-2025-32463,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2025-32463,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,1,CVE-2025-32463,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),correct
+ubuntu-24.04,S3,S3,2,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,2,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,2,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,2,CVE-2024-5535,trivy,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2024-5535,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2024-5535,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),correct
+ubuntu-24.04,S3,S3,2,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),correct
+ubuntu-24.04,S3,S3,2,CVE-2024-6387,trivy,vulnerable,1,1,fixed,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2024-6387,osv-scanner,vulnerable,1,1,fixed,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),correct
+ubuntu-24.04,S3,S3,2,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),correct
+ubuntu-24.04,S3,S3,2,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,2,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,2,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,2,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),correct
+ubuntu-24.04,S3,S3,2,CVE-2025-32463,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2025-32463,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,2,CVE-2025-32463,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),correct
+ubuntu-24.04,S3,S3,3,CVE-2024-2961,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,3,CVE-2024-2961,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,3,CVE-2024-2961,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,3,CVE-2024-5535,trivy,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2024-5535,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2024-5535,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libssl.so.3 3.0.13-0ubuntu3 (deleted),correct
+ubuntu-24.04,S3,S3,3,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sshd maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted); sudo maps libcrypto.so.3 3.0.13-0ubuntu3 (deleted),correct
+ubuntu-24.04,S3,S3,3,CVE-2024-6387,trivy,vulnerable,1,1,fixed,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2024-6387,osv-scanner,vulnerable,1,1,fixed,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),correct
+ubuntu-24.04,S3,S3,3,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted),correct
+ubuntu-24.04,S3,S3,3,CVE-2024-7264,trivy,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,3,CVE-2024-7264,osv-scanner,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,3,CVE-2024-7264,fixproof-verify,fixed,0,0,fixed,,0,,correct
+ubuntu-24.04,S3,S3,3,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),correct
+ubuntu-24.04,S3,S3,3,CVE-2025-32463,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2025-32463,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),false_fixed
+ubuntu-24.04,S3,S3,3,CVE-2025-32463,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted),correct
+ubuntu-24.04,S5,S5,1,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,1,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,1,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,1,CVE-2024-6387,trivy,mitigated,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,1,CVE-2024-6387,osv-scanner,mitigated,0,0,vulnerable,openssh,1,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,1,CVE-2024-6387,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,1,CVE-2024-6387,ssh-banner,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-6387,trivy,mitigated,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-6387,osv-scanner,mitigated,0,0,vulnerable,openssh,1,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-6387,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,2,CVE-2024-6387,ssh-banner,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-2961,trivy,mitigated,0,0,vulnerable,libc-bin libc6,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-2961,osv-scanner,mitigated,0,0,vulnerable,glibc,1,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-2961,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: libc6 2.39-0ubuntu8 < 2.39-0ubuntu8.1; mitigation in force: Disable the ISO-2022-CN-EXT converter in gconv-modules and rebuild the cache,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-6387,trivy,mitigated,0,0,vulnerable,openssh-client openssh-server openssh-sftp-server,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-6387,osv-scanner,mitigated,0,0,vulnerable,openssh,1,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-6387,fixproof-verify,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S5,S5,3,CVE-2024-6387,ssh-banner,mitigated,0,0,vulnerable,,0,installed: openssh-server 1:9.6p1-3ubuntu13 < 1:9.6p1-3ubuntu13.3; mitigation in force: LoginGraceTime 0 in sshd_config,flagged_mitigated
+ubuntu-24.04,S7,S7,1,CVE-2024-6387,trivy,fixed,0,0,vulnerable,openssh-client openssh-sftp-server,1,package not installed,false_vulnerable
+ubuntu-24.04,S7,S7,1,CVE-2024-6387,osv-scanner,fixed,0,0,vulnerable,openssh,1,package not installed,false_vulnerable
+ubuntu-24.04,S7,S7,1,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,1,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,1,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,1,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,1,CVE-2025-32463,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,1,CVE-2025-32463,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,1,CVE-2025-32463,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2024-6387,trivy,fixed,0,0,vulnerable,openssh-client openssh-sftp-server,1,package not installed,false_vulnerable
+ubuntu-24.04,S7,S7,2,CVE-2024-6387,osv-scanner,fixed,0,0,vulnerable,openssh,1,package not installed,false_vulnerable
+ubuntu-24.04,S7,S7,2,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2025-32463,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2025-32463,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,2,CVE-2025-32463,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2024-6387,trivy,fixed,0,0,vulnerable,openssh-client openssh-sftp-server,1,package not installed,false_vulnerable
+ubuntu-24.04,S7,S7,3,CVE-2024-6387,osv-scanner,fixed,0,0,vulnerable,openssh,1,package not installed,false_vulnerable
+ubuntu-24.04,S7,S7,3,CVE-2024-6387,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2025-32462,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2025-32462,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2025-32462,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2025-32463,trivy,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2025-32463,osv-scanner,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S7,S7,3,CVE-2025-32463,fixproof-verify,fixed,0,0,fixed,,0,package not installed,correct
+ubuntu-24.04,S8,S8,1,CVE-2024-6387,trivy,vulnerable,1,1,vulnerable,openssh-client openssh-sftp-server,1,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,1,CVE-2024-6387,osv-scanner,vulnerable,1,1,vulnerable,openssh,1,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,1,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,1,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,1,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,1,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,1,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,1,CVE-2025-32463,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,1,CVE-2025-32463,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,1,CVE-2025-32463,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,2,CVE-2024-6387,trivy,vulnerable,1,1,vulnerable,openssh-client openssh-sftp-server,1,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,2,CVE-2024-6387,osv-scanner,vulnerable,1,1,vulnerable,openssh,1,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,2,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,2,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,2,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,2,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,2,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,2,CVE-2025-32463,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,2,CVE-2025-32463,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,2,CVE-2025-32463,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,3,CVE-2024-6387,trivy,vulnerable,1,1,vulnerable,openssh-client openssh-sftp-server,1,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,3,CVE-2024-6387,osv-scanner,vulnerable,1,1,vulnerable,openssh,1,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,3,CVE-2024-6387,fixproof-verify,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,3,CVE-2024-6387,ssh-banner,vulnerable,1,1,vulnerable,,0,sshd maps sshd 1:9.6p1-3ubuntu13 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,3,CVE-2025-32462,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,3,CVE-2025-32462,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,3,CVE-2025-32462,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,correct
+ubuntu-24.04,S8,S8,3,CVE-2025-32463,trivy,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,3,CVE-2025-32463,osv-scanner,vulnerable,1,0,fixed,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,false_fixed
+ubuntu-24.04,S8,S8,3,CVE-2025-32463,fixproof-verify,vulnerable,1,0,vulnerable,,0,sudo maps sudo 1.9.15p5-3ubuntu5 (deleted); sudo maps sudoers.so 1.9.15p5-3ubuntu5 (deleted); package not installed,correct
+ubuntu-24.04,S9,S9,1,CVE-2024-5535,trivy,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,1,CVE-2024-5535,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,1,CVE-2024-5535,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),correct
+ubuntu-24.04,S9,S9,1,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,1,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,1,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),correct
+ubuntu-24.04,S9,S9,2,CVE-2024-5535,trivy,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,2,CVE-2024-5535,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,2,CVE-2024-5535,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),correct
+ubuntu-24.04,S9,S9,2,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,2,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,2,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),correct
+ubuntu-24.04,S9,S9,3,CVE-2024-5535,trivy,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,3,CVE-2024-5535,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,3,CVE-2024-5535,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libssl.so.3 3.0.13-0ubuntu3 (copy outside the package),correct
+ubuntu-24.04,S9,S9,3,CVE-2024-6119,trivy,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,3,CVE-2024-6119,osv-scanner,vulnerable,1,1,fixed,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),false_fixed
+ubuntu-24.04,S9,S9,3,CVE-2024-6119,fixproof-verify,vulnerable,1,1,vulnerable,,0,nginx maps libcrypto.so.3 3.0.13-0ubuntu3 (copy outside the package),correct

@@ -1,0 +1,41 @@
+{
+ "distro": "alpine-3.18-nginx",
+ "state": "SU",
+ "repeat": 2,
+ "image": "mirror.gcr.io/library/nginx:1.25.3-alpine3.18",
+ "started": 1794669848.367134,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 0.5
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-alpine-318-nginx-SU-r2.tar\"\nStarting filesystem walk for root: \nEnd status: 257 dirs visited, 2816 inodes visited, 1 Extract calls, 2.739013ms elapsed, 2.739441ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 473.069\u00b5s elapsed, 473.141\u00b5s wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 224.394\u00b5s elapsed, 224.453\u00b5s wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 69.428\u00b5s elapsed, 69.481\u00b5s wall time\nLoaded Alpine local db from /db/osv-scalibr/Alpine/all.zip\n",
+   "seconds": 1.2
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\talpine3.18.6\t64 installed\n\nWarning: [Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.7
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/nginx:1.25.3-alpine3.18",
+   "rc": 0,
+   "t": 1794669848.51,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669851.59,
+   "output": "2026/11/14 15:24:08 [notice] 13#13: using the \"epoll\" event method\n2026/11/14 15:24:08 [notice] 13#13: nginx/1.25.3\n2026/11/14 15:24:08 [notice] 13#13: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) \n2026/11/14 15:24:08 [notice] 13#13: OS: Linux 6.18.44-fc-v470\n2026/11/14 15:24:08 [notice] 13#13: getrlimit(RLIMIT_NOFILE): 20000:20000\n2026/11/14 15:24:08 [notice] 14#14: start worker processes\n2026/11/14 15:24:08 [notice] 14#14: start worker process 15\n2026/11/14 15:24:08 [notice] 14#14: start worker process 16\n2026/11/14 15:24:08 [notice] 14#14: start worker process 17\n2026/11/14 15:24:08 [notice] 14#14: start worker process 18\n"
+  }
+ ],
+ "finished": 1794669856.0109994
+}

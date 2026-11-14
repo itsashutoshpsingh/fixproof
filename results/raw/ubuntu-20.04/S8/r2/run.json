@@ -1,0 +1,51 @@
+{
+ "distro": "ubuntu-20.04",
+ "state": "S8",
+ "repeat": 2,
+ "image": "fixproof/ubuntu-20.04:s0",
+ "started": 1794669231.214995,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 1.0
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-ubuntu-2004-S8-r2.tar\"\nStarting filesystem walk for root: \nEnd status: 1415 dirs visited, 10488 inodes visited, 1 Extract calls, 8.702564ms elapsed, 8.702819ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.587018ms elapsed, 1.587135ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.411993ms elapsed, 1.412236ms wall time\nLoaded Ubuntu local db from /db/osv-scalibr/Ubuntu/all.zip\n",
+   "seconds": 6.0
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tubuntu20.04\t204 installed\n\nWarning: [Extended support available until 2030-04-01. Check the vendor site. Failed to scan need-restarting processes:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:259\n  - Failed to LANGUAGE=en_US.UTF-8 checkrestart. status: 127, stdout: , stderr: /bin/sh: 1: sudo: not found:\n    github.com/future-architect/vuls/scanner.(*debian).checkrestart\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:1182 Standard OS support is EOL(End-of-Life). Purchase extended support if available or Upgrading your OS is strongly recommended.]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.5
+  },
+  "needrestart": {
+   "rc": 0
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "fixproof/ubuntu-20.04:s0",
+   "rc": 0,
+   "t": 1794669231.39,
+   "output": ""
+  },
+  {
+   "step": "start-services",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669232.5,
+   "output": ""
+  },
+  {
+   "step": "remove",
+   "detail": "",
+   "rc": 0,
+   "t": 1794669235.33,
+   "output": "Reading package lists...\nBuilding dependency tree...\nReading state information...\nThe following packages were automatically installed and are no longer required:\n  libwrap0 openssh-sftp-server\nUse 'apt autoremove' to remove them.\nThe following packages will be REMOVED:\n  openssh-server sudo\n0 upgraded, 0 newly installed, 2 to remove and 141 not upgraded.\nAfter this operation, 3780 kB disk space will be freed.\n(Reading database ... \n(Reading database ... 5%\n(Reading database ... 10%\n(Reading database ... 15%\n(Reading database ... 20%\n(Reading database ... 25%\n(Reading database ... 30%\n(Reading database ... 35%\n(Reading database ... 40%\n(Reading database ... 45%\n(Reading database ... 50%\n(Reading database ... 55%\n(Reading database ... 60%\n(Reading database ... 65%\n(Reading database ... 70%\n(Reading database ... 75%\n(Reading database ... 80%\n(Reading database ... 85%\n(Reading database ... 90%\n(Reading database ... 95%\n(Reading database ... 100%\n(Reading database ... 11415 files and directories currently installed.)\nRemoving openssh-server (1:8.2p1-4) ...\ninvoke-rc.d: could not determine current runlevel\ninvoke-rc.d: policy-rc.d denied execution of stop.\nRemoving sudo (1.8.31-1ubuntu1) ...\n"
+  }
+ ],
+ "finished": 1794669252.4208431
+}

@@ -1,0 +1,41 @@
+{
+ "distro": "debian-12-nginx",
+ "state": "SU",
+ "repeat": 1,
+ "image": "mirror.gcr.io/library/nginx:1.25.3",
+ "started": 1794668894.9190595,
+ "scans": {
+  "trivy": {
+   "rc": 0,
+   "stderr": "",
+   "seconds": 0.8
+  },
+  "osv-scanner": {
+   "rc": 1,
+   "stderr": "Scanning local image tarball \"/in/fp-h-debian-12-nginx-SU-r1.tar\"\nStarting filesystem walk for root: \nEnd status: 641 dirs visited, 5790 inodes visited, 1 Extract calls, 4.998788ms elapsed, 4.99885ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 1.020532ms elapsed, 1.020648ms wall time\nStarting filesystem walk for root: \nEnd status: 0 dirs visited, 1 inodes visited, 1 Extract calls, 574.809\u00b5s elapsed, 574.88\u00b5s wall time\nLoaded Debian local db from /db/osv-scalibr/Debian/all.zip\n",
+   "seconds": 3.9
+  },
+  "vuls": {
+   "rc": 0,
+   "stdout": "\n\nScan Summary\n================\nlab\tdebian12.5\t149 installed\n\nWarning: [Failed to detect IP address: execResult: servername: \n      cmd: /bin/sh -c /sbin/ip -o addr\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: 1: /sbin/ip: not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ip\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:317 Failed to dpkg-ps:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:252\n  - Failed to pkgPs:\n    github.com/future-architect/vuls/scanner.(*base).pkgPs\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1489\n  - Failed to SSH: execResult: servername: \n      cmd: /bin/sh -c LANGUAGE=en_US.UTF-8 ps --no-headers --ppid 2 -p 2 --deselect -o pid,comm\n      exitstatus: 127\n      stdout: \n      stderr: /bin/sh: 1: ps: not found\n    \n      err: exit status 127:\n    github.com/future-architect/vuls/scanner.(*base).ps\n        github.com/future-architect/vuls@v0.42.0/scanner/base.go:1404 Failed to scan need-restarting processes:\n    github.com/future-architect/vuls/scanner.(*debian).postScan\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:259\n  - Failed to LANGUAGE=en_US.UTF-8 checkrestart. status: 127, stdout: , stderr: /bin/sh: 1: sudo: not found:\n    github.com/future-architect/vuls/scanner.(*debian).checkrestart\n        github.com/future-architect/vuls@v0.42.0/scanner/debian.go:1182]\n\n\n\nTo view the detail, vuls tui is useful.\nTo send a report, run vuls report -h.\n",
+   "seconds": 0.8
+  }
+ },
+ "steps": [
+  {
+   "step": "start",
+   "detail": "mirror.gcr.io/library/nginx:1.25.3",
+   "rc": 0,
+   "t": 1794668895.07,
+   "output": ""
+  },
+  {
+   "step": "start-procs",
+   "detail": "",
+   "rc": 0,
+   "t": 1794668898.2,
+   "output": "2026/11/14 15:08:15 [notice] 12#12: using the \"epoll\" event method\n2026/11/14 15:08:15 [notice] 12#12: nginx/1.25.3\n2026/11/14 15:08:15 [notice] 12#12: built by gcc 12.2.0 (Debian 12.2.0-14) \n2026/11/14 15:08:15 [notice] 12#12: OS: Linux 6.18.44-fc-v470\n2026/11/14 15:08:15 [notice] 12#12: getrlimit(RLIMIT_NOFILE): 20000:20000\n2026/11/14 15:08:15 [notice] 13#13: start worker processes\n2026/11/14 15:08:15 [notice] 13#13: start worker process 14\n2026/11/14 15:08:15 [notice] 13#13: start worker process 15\n2026/11/14 15:08:15 [notice] 13#13: start worker process 16\n2026/11/14 15:08:15 [notice] 13#13: start worker process 18\n"
+  }
+ ],
+ "finished": 1794668907.6019814
+}

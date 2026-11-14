@@ -1,0 +1,21 @@
+$ fixproof verify CVE-2024-6387 CVE-2024-5535 CVE-2025-32463   # on a ubuntu-24.04 host in state S3
+CVE-2024-6387: NOT REMEDIATED
+  [ok] openssh-server >= 1:9.6p1-3ubuntu13.3: 1:9.6p1-3ubuntu13.20
+  [ok] vendor changelog names the CVE: True
+  [..] mitigation check (informational): False
+  BLOCKER pid 21270 (sshd) still runs a replaced sshd; restart it
+CVE-2024-5535: NOT REMEDIATED
+  [ok] libssl3t64 >= 3.0.13-0ubuntu3.2: 3.0.13-0ubuntu3.16
+  [ok] vendor changelog names the CVE: True
+  BLOCKER pid 21272 (nginx) still runs a replaced libssl.so.3; restart it
+  BLOCKER pid 21273 (nginx) still runs a replaced libssl.so.3; restart it
+  BLOCKER pid 21274 (nginx) still runs a replaced libssl.so.3; restart it
+  BLOCKER pid 21275 (nginx) still runs a replaced libssl.so.3; restart it
+  BLOCKER pid 21276 (nginx) still runs a replaced libssl.so.3; restart it
+  BLOCKER pid 21277 (sudo) still runs a replaced libssl.so.3; restart it
+CVE-2025-32463: NOT REMEDIATED
+  [ok] sudo >= 1.9.15p5-3ubuntu5.24.04.1: 1.9.15p5-3ubuntu5.24.04.4
+  [ok] vendor changelog names the CVE: True
+  BLOCKER pid 21277 (sudo) still runs a replaced sudo; restart it
+  BLOCKER pid 21277 (sudo) still runs a replaced sudoers.so; restart it
+exit code 1

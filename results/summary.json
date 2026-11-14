@@ -1,0 +1,133 @@
+{
+  "project": "fixproof",
+  "headline": "On hosts updated but not restarted, 138 of 138 scanner verdicts (100.0%) said fixed while the old vulnerable code was still running; 2 of 2 scanners did so every time.",
+  "metrics": [
+    {
+      "label": "False fixed, updated not restarted",
+      "value": "100.0%"
+    },
+    {
+      "label": "Scanners fooled every time",
+      "value": "2 of 2"
+    },
+    {
+      "label": "Stale code verdicts said fixed",
+      "value": "210 of 222"
+    },
+    {
+      "label": "Needrestart caught stale programs",
+      "value": "37.5%"
+    },
+    {
+      "label": "Vuls caught stale programs",
+      "value": "90.0%"
+    },
+    {
+      "label": "Backport false vulnerable, scanners",
+      "value": "0.0%"
+    },
+    {
+      "label": "Backport false vulnerable, banner check",
+      "value": "100.0%"
+    },
+    {
+      "label": "Mitigated hosts flagged by version",
+      "value": "100.0%"
+    },
+    {
+      "label": "Host builds",
+      "value": "114"
+    },
+    {
+      "label": "Verdicts scored",
+      "value": "1455"
+    }
+  ],
+  "charts": [
+    {
+      "path": "docs/img/hero_false_fixed.png",
+      "label": "False fixed by state",
+      "alt": "Bar chart of the share of vulnerable verdicts each scanner reported as fixed, by host state"
+    },
+    {
+      "path": "docs/img/cell_grid.png",
+      "label": "Every cell",
+      "alt": "Grid of CVE by distro by state showing truth and each scanner's verdict"
+    },
+    {
+      "path": "docs/img/confusion.png",
+      "label": "Confusion matrices",
+      "alt": "Truth against verdict counts for each scanner"
+    },
+    {
+      "path": "docs/img/restart_detectors.png",
+      "label": "Restart detectors",
+      "alt": "Share of processes running stale vulnerable code that needrestart and Vuls flagged"
+    },
+    {
+      "path": "docs/img/backport_banner.png",
+      "label": "Backports and banners",
+      "alt": "False vulnerable rate on backported hosts for package scanners and a banner version check"
+    },
+    {
+      "path": "docs/img/coverage.png",
+      "label": "Coverage by distro",
+      "alt": "Share of vulnerable S0 cells each scanner flagged, per distro"
+    },
+    {
+      "path": "docs/img/pipeline.png",
+      "label": "Pipeline",
+      "alt": "Diagram of the lab: host states, evidence collector, scanners, scoring"
+    }
+  ],
+  "viz": [
+    {
+      "title": "Updated but not restarted: share of verdicts that said fixed while old code ran",
+      "unit": "%",
+      "bars": [
+        {
+          "label": "Trivy",
+          "value": 100.0,
+          "tone": "bad"
+        },
+        {
+          "label": "OSV-Scanner",
+          "value": 100.0,
+          "tone": "bad"
+        }
+      ]
+    },
+    {
+      "title": "Restart detectors: share of stale vulnerable programs they flagged",
+      "unit": "%",
+      "bars": [
+        {
+          "label": "Needrestart",
+          "value": 37.5,
+          "tone": "good"
+        },
+        {
+          "label": "Vuls scan",
+          "value": 90.0,
+          "tone": "warn"
+        }
+      ]
+    },
+    {
+      "title": "Backported fixes: version-string checks cry wolf",
+      "unit": "%",
+      "bars": [
+        {
+          "label": "Package scanners",
+          "value": 0.0,
+          "tone": "good"
+        },
+        {
+          "label": "SSH banner check",
+          "value": 100.0,
+          "tone": "bad"
+        }
+      ]
+    }
+  ]
+}
