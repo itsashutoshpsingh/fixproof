@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import re
 
-
 # ---------------------------------------------------------------- dpkg
 
 def _dpkg_order(c: str) -> int:

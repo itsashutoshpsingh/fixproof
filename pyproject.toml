@@ -30,7 +30,7 @@ where = ["src"]
 testpaths = ["tests"]
 
 [tool.ruff]
-line-length = 110
+line-length = 130
 src = ["src", "tests"]
 
 [tool.ruff.lint]

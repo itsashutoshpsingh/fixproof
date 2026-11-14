@@ -86,6 +86,9 @@ class Host:
         sh(["docker", "rm", "-f", self.name], check=False)
         sh(["docker", "run", "-d", "--name", self.name, "--hostname", "lab", "--memory", MEM,
             "--network", "none", "--cap-add", "SYS_PTRACE", "--entrypoint", "sleep", self.image, "infinity"])
+        if not self.official:  # the repo's copy of the state scripts is authoritative
+            sh(["docker", "cp", f"{LAB / 'ubuntu/files'}/.", f"{self.name}:/opt/fixproof-lab/"])
+            self.exec("chmod +x /opt/fixproof-lab/*.sh")
         self._record("start", self.image, 0, "")
 
     def stop(self):

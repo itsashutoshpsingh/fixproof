@@ -9,13 +9,13 @@ import re
 from collections import defaultdict
 from pathlib import Path
 
-from . import lab, truth
+from . import lab, truth, verify
 from .scanners import needrestart, osv, trivy, vuls
 from .versions import dpkg_cmp
 
 REPO = lab.REPO
 RAW = REPO / "results/raw"
-CVE_SCANNERS = ("trivy", "osv-scanner", "ssh-banner")
+CVE_SCANNERS = ("trivy", "osv-scanner", "ssh-banner")  # fixproof-verify is scored too, but it is mine
 SERVICE_OF = {"sshd": "ssh", "nginx": "nginx"}
 
 
@@ -116,6 +116,8 @@ def main():
                 if case.get("kind") == "kernel" and res is not None and verdicts[name] == "fixed" and not any(
                         f["pkg"].startswith("linux-") for fs in res["findings"].values() for f in fs if f.get("pkg")):
                     verdicts[name] = "no_check"  # no finding on any kernel package at all
+            va = verify.assess(cve, case, distro, ev)
+            verdicts["fixproof-verify"] = "fixed" if va["verdict"] == "remediated" else "vulnerable"
             bv = banner_verdict(case, probe)
             if bv:
                 verdicts["ssh-banner"] = bv
@@ -139,12 +141,18 @@ def main():
         if nres is not None:
             tools["needrestart"] = (None if nres.get("error") else
                                     lambda pid, comm, n=nres: SERVICE_OF.get(comm) in n["services"])
+        # one row per stale program per host run (nginx's master and workers count once; all must be flagged)
+        groups = defaultdict(list)
         for pid, info in stale.items():
+            groups[info["comm"]].append((pid, info))
+        for comm, members in sorted(groups.items()):
+            cves_ = sorted(set().union(*(i["cves"] for _, i in members)))
             for tool, fn in tools.items():
-                restart_rows.append({"distro": distro, "state": state, "repeat": rep, "pid": pid, "comm": info["comm"],
-                                     "cves": " ".join(sorted(info["cves"])), "tool": tool,
-                                     "result": "unavailable" if fn is None else
-                                     ("flagged" if fn(info["nspid"], info["comm"]) else "missed")})
+                res = "unavailable" if fn is None else (
+                    "flagged" if all(fn(i["nspid"], comm) for _, i in members) else "missed")
+                restart_rows.append({"distro": distro, "state": state, "repeat": rep,
+                                     "pid": " ".join(str(p) for p, _ in members), "comm": comm,
+                                     "cves": " ".join(cves_), "tool": tool, "result": res})
         if not stale:
             for tool, fn in tools.items():
                 flagged = None
@@ -152,7 +160,8 @@ def main():
                     flagged = bool(vres["restart"]) if tool.startswith("vuls") else bool(nres["services"])
                 restart_rows.append({"distro": distro, "state": state, "repeat": rep, "pid": "", "comm": "",
                                      "cves": "", "tool": tool,
-                                     "result": "unavailable" if fn is None else ("alarm_no_stale" if flagged else "quiet_no_stale")})
+                                     "result": "unavailable" if fn is None
+                                     else ("alarm_no_stale" if flagged else "quiet_no_stale")})
     # a scanner "has a check" for (distro, cve) only if it flags it on some S0 host of that distro
     flagged_s0 = defaultdict(bool)
     for r in rows:

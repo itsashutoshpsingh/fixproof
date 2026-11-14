@@ -34,7 +34,8 @@ def oracle(kind, a, b):
         cmd = f"dpkg --compare-versions '{a}' lt '{b}' && echo -1 || (dpkg --compare-versions '{a}' eq '{b}' && echo 0 || echo 1)"
     elif kind == "rpm":
         cmd = ("python3 -c \"import rpm,sys\n"
-               "def s(v):\n e,_,v=v.rpartition(':') if ':' in v else ('0','',v)\n r=v.rsplit('-',1)\n return (e or '0',r[0],r[1])\n"
+               "def s(v):\n e,_,v=v.rpartition(':') if ':' in v else ('0','',v)\n"
+               " r=v.rsplit('-',1)\n return (e or '0',r[0],r[1])\n"
                f"print(rpm.labelCompare(s('{a}'),s('{b}')))\"")
     else:
         cmd = f"r=$(apk version -t '{a}' '{b}'); case $r in '<') echo -1;; '=') echo 0;; *) echo 1;; esac"

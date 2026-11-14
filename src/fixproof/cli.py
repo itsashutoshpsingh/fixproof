@@ -5,7 +5,7 @@
   fixproof score             truth + verdicts -> results/cells.csv and summaries
   fixproof report            tables and results/summary.json
   fixproof charts            docs/img/*.png
-  fixproof verify CVE...     evidence pack for this machine (standalone use)
+  fixproof verify CVE...     evidence pack for this machine or --container NAME
 """
 
 from __future__ import annotations
@@ -65,7 +65,7 @@ def cmd_run(args):
 
 def cmd_verify(args):
     from .verify import main as verify_main
-    return verify_main(args.cves, args.distro, args.json)
+    return verify_main(args.cves, args.distro, args.json, args.container)
 
 
 def main(argv=None):
@@ -89,6 +89,7 @@ def main(argv=None):
     s.add_argument("cves", nargs="+")
     s.add_argument("--distro", help="case-file distro key, e.g. ubuntu-22.04 (default: from os-release)")
     s.add_argument("--json", action="store_true")
+    s.add_argument("--container", help="check a running container instead of this machine")
     s.set_defaults(func=cmd_verify)
     args = p.parse_args(argv)
     return args.func(args) or 0
